@@ -150,7 +150,7 @@ pre {
     margin-left: calc(25% - 30px);
     margin-top: ($spacing-unit/2);
     padding: ($spacing-unit/2) $spacing-unit 0;
-    background-color: $grey-light;
+    background-color: rgba(248,248,248,0.75);
     @extend %clearfix;
     @media screen and (max-width: $small-desktop){
       margin-left: calc(20% - 30px);

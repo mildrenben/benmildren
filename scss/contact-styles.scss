@@ -6,7 +6,6 @@
 
 main {
 	width: 25%;
-	background-color: $grey-light;
 	@media screen and (max-width: $small-desktop){
   		width: 40%;
 	}

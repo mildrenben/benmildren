@@ -99,7 +99,7 @@ main {
   padding: 0 30px 30px;
   margin-left: calc(25% - 30px);
   margin-bottom: 40px;
-  background: #F8F8F8; }
+  background: rgba(248, 248, 248, 0.75); }
   @media screen and (max-width: 1200px) {
     main {
       margin-left: calc(20% - 30px); } }
@@ -126,8 +126,7 @@ main p {
   margin: 3% 0; }
 
 main {
-  width: 25%;
-  background-color: #F8F8F8; }
+  width: 25%; }
   @media screen and (max-width: 1200px) {
     main {
       width: 40%; } }

@@ -8,7 +8,7 @@ header {
   top: 27%;
   left: calc(50% - 196px);
   text-align: center;
-  -webkit-animation: anim2 1s ease-in-out 2.5s forwards;
+  -webkit-animation: anim2 0.8s ease-in-out 1s forwards;
   animation: anim2 1s ease-in-out 2.5s forwards;
   @media screen and (max-width: $tablet){
     left: calc(50% - 144px);
@@ -67,8 +67,8 @@ h1 {
   font-size: 56px;
   font-weight: 800;
   opacity: 0;
-  -webkit-animation: anim1 1.5s ease-in-out forwards;
-          animation: anim1 1.5s ease-in-out forwards;
+  -webkit-animation: anim1 0.7s ease-in-out forwards;
+          animation: anim1 0.7s ease-in-out forwards;
   @media screen and (max-width: $tablet){
     font-size: 40px;
   }
@@ -77,8 +77,8 @@ h1 {
 p {
   font-size: 20px;
   opacity: 0;
-  -webkit-animation: anim1 1.5s ease-in-out 0.3s forwards;
-          animation: anim1 1.5s ease-in-out 0.3s forwards;
+  -webkit-animation: anim1 0.7s ease-in-out 0.3s forwards;
+          animation: anim1 0.7s ease-in-out 0.3s forwards;
 }
 
 nav {
@@ -107,27 +107,27 @@ nav a {
 
 .bg {
   opacity: 0;
-  -webkit-animation: anim3 0.8s ease-in-out forwards;
-          animation: anim3 0.8s ease-in-out forwards;
+  -webkit-animation: anim3 0.4s ease-in-out forwards;
+          animation: anim3 0.4s ease-in-out forwards;
 }
 
 a:nth-of-type(1) {
-  -webkit-animation: anim1 1s ease-in-out 3s forwards;
-          animation: anim1 1s ease-in-out 3s forwards;
+  -webkit-animation: anim1 0.7s ease-in-out 1.8s forwards;
+          animation: anim1 0.7s ease-in-out 1.8s forwards;
 }
 
 a:nth-of-type(2) {
-  -webkit-animation: anim1 1s ease-in-out 3.1s forwards;
-          animation: anim1 1s ease-in-out 3.1s forwards;
+  -webkit-animation: anim1 0.7s ease-in-out 1.9s forwards;
+          animation: anim1 0.7s ease-in-out 1.9s forwards;
 }
 
 a:nth-of-type(3) {
-  -webkit-animation: anim1 1s ease-in-out 3.2s forwards;
-          animation: anim1 1s ease-in-out 3.2s forwards;
+  -webkit-animation: anim1 0.7s ease-in-out 2.0s forwards;
+          animation: anim1 0.7s ease-in-out 2.0s forwards;
 }
 
 a:nth-of-type(4) {
-  -webkit-animation: anim1 1s ease-in-out 3.3s forwards;
-          animation: anim1 1s ease-in-out 3.3s forwards;
+  -webkit-animation: anim1 0.7s ease-in-out 2.1s forwards;
+          animation: anim1 0.7s ease-in-out 2.1s forwards;
 }
 

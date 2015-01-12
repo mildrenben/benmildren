@@ -51,7 +51,7 @@ main {
   padding: 0 30px 30px;
   margin-left: calc(25% - 30px);
   margin-bottom: 40px;
-  background: $grey-light;
+  background: rgba(248,248,248,0.75);
   @media screen and (max-width: $small-desktop){
     margin-left: calc(20% - 30px);
   }
