@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import 'reset';
+@import 'general';
+@import 'not-index';
+
+main {
+	width: 25%;
+	@media screen and (max-width: $small-desktop){
+    	width: 50%;
+  	}
+  	@media screen and (max-width: $tablet){
+   		width: 70%;
+  	}
+  	@media screen and (max-width: $mobile){
+    	width: 80%;
+  	}
+}

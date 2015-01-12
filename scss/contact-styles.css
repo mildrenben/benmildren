@@ -1,0 +1,162 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0; }
+
+.bg {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+body > header h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 135%; }
+
+h1, h2, h3, h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #4C5C58; }
+
+h5 {
+  font-weight: 400; }
+
+h5, p {
+  font-family: "Gentium Book Basic", serif;
+  color: #5B6B67; }
+
+header p {
+  font-style: italic; }
+
+nav a {
+  width: auto;
+  font-family: 'Gentium Book Basic', sans-serif;
+  color: #5B6B67;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none; }
+
+nav a.active {
+  font-style: italic; }
+
+nav a:hover {
+  border-bottom: double 3px #5B6B67; }
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #5B6B67; }
+
+body {
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover; }
+
+header {
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 2%; }
+  @media screen and (max-width: 720px) {
+    header {
+      width: 70%; } }
+  @media screen and (max-width: 420px) {
+    header {
+      width: 90%; } }
+
+header h1 {
+  font-weight: 800;
+  text-transform: uppercase; }
+
+nav {
+  padding-top: 1%; }
+
+nav a {
+  line-height: 26px;
+  margin-right: 26px;
+  padding-bottom: 5px; }
+  @media screen and (max-width: 720px) {
+    nav a {
+      margin-right: 16px; } }
+
+main {
+  margin-top: 3%;
+  padding: 0 30px 30px;
+  margin-left: calc(25% - 30px);
+  margin-bottom: 40px;
+  background: #F8F8F8; }
+  @media screen and (max-width: 1200px) {
+    main {
+      margin-left: calc(20% - 30px); } }
+  @media screen and (max-width: 720px) {
+    main {
+      margin-left: calc(10% - 20px);
+      padding: 0 20px 20px; } }
+
+header {
+  margin-left: 25%; }
+  @media screen and (max-width: 1200px) {
+    header {
+      margin-left: 20%; } }
+  @media screen and (max-width: 720px) {
+    header {
+      margin-left: 10%; } }
+  @media screen and (max-width: 420px) {
+    header {
+      margin-left: 4%; } }
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 1%; }
+
+main p {
+  font-size: 18px;
+  margin: 3% 0; }
+
+main {
+  width: 25%;
+  background-color: #F8F8F8; }
+  @media screen and (max-width: 1200px) {
+    main {
+      width: 40%; } }
+  @media screen and (max-width: 720px) {
+    main {
+      width: 60%; } }
+  @media screen and (max-width: 420px) {
+    main {
+      width: 80%; } }
+
+main h2 {
+  margin-bottom: 14px; }
+
+main h2:not(:nth-of-type(1)) {
+  margin-top: 50px; }
+
+main a, main p {
+  font-size: 18px; }
+
+main a:not(:nth-of-type(1)) {
+  display: block; }
+
+main a, main p {
+  margin: 10px 0; }
+
+main p {
+  display: inline; }
+
+/*# sourceMappingURL=contact-styles.css.map */

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.bg {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+$color: #4C5C58;
+$color-light: #5B6B67;
+$color-super-light: #AFBDB9;
+$grey: #EEEDEB;
+$grey-light: #F8F8F8;
+
+$reg-desktop: 1500px;
+$small-desktop: 1200px;
+$tablet: 720px;
+$mobile: 420px;
+
+$open: 'Open Sans', sans-serif;
+$gent: 'Gentium Book Basic', serif;
+
+body>header h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 135%;
+}
+
+h1, h2, h3, h4 {
+  font-family: $open;
+  color: $color;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+h5, p {
+  font-family: $gent;
+  color: $color-light;
+}
+
+header p {
+  font-style: italic;
+}
+
+nav a {
+  width: auto;
+  font-family: 'Gentium Book Basic', sans-serif;
+  color: $color-light;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-style: italic;
+}
+
+nav a:hover {
+  border-bottom: double 3px $color-light;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: $color-light;
+}
+

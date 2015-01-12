@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+$color: #4C5C58;
+$color-light: #5B6B67;
+$color-super-light: #AFBDB9;
+$grey: #EEEDEB;
+$grey-light: #F8F8F8;
+
+$reg-desktop: 1500px;
+$small-desktop: 1200px;
+$tablet: 720px;
+$mobile: 420px;
+
+body {
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 2%;
+  @media screen and (max-width: $tablet){
+    width: 70%;
+  }
+  @media screen and (max-width: $mobile){
+    width: 90%;
+  }
+}
+
+header h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+nav {
+  padding-top: 1%;
+}
+
+nav a {
+  line-height: 26px;
+  margin-right: 26px;
+  padding-bottom: 5px;
+  @media screen and (max-width: $tablet){
+    margin-right: 16px;
+  }
+}
+
+main {
+  margin-top: 3%;
+  padding: 0 30px 30px;
+  margin-left: calc(25% - 30px);
+  margin-bottom: 40px;
+  background: $grey-light;
+  @media screen and (max-width: $small-desktop){
+    margin-left: calc(20% - 30px);
+  }
+  @media screen and (max-width: $tablet){
+    margin-left: calc(10% - 20px);
+    padding: 0 20px 20px;
+  }
+}
+
+header {
+  margin-left: 25%;
+  @media screen and (max-width: $small-desktop){
+    margin-left: 20%;
+  }
+  @media screen and (max-width: $tablet){
+    margin-left: 10%;
+  }
+  @media screen and (max-width: $mobile){
+    margin-left: 4%;
+  }
+}
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 1%;
+}
+
+main p {
+  font-size: 18px;
+  margin: 3% 0;
+}
