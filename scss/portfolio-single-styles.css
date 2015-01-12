@@ -116,9 +116,6 @@ header {
   @media screen and (max-width: 720px) {
     header {
       margin-left: 10%; } }
-  @media screen and (max-width: 420px) {
-    header {
-      margin-left: 4%; } }
 
 main h2 {
   font-size: 28px;
@@ -206,6 +203,12 @@ main .description p:nth-child(2) {
   position: fixed;
   text-decoration: none;
   top: calc(50% - 10px); }
+  @media scree and (max-width: 720px) {
+    .prev, .next {
+      color: #EEEDEB;
+      padding: 5px 20px;
+      top: calc(100% - 40px);
+      background: #4C5C58; } }
 
 .prev {
   left: 24px; }

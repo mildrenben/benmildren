@@ -116,9 +116,6 @@ header {
   @media screen and (max-width: 720px) {
     header {
       margin-left: 10%; } }
-  @media screen and (max-width: 420px) {
-    header {
-      margin-left: 4%; } }
 
 main h2 {
   font-size: 28px;
