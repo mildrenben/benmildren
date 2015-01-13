@@ -260,3 +260,14 @@
         }
     }
 }
+
+p a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: $color-light;
+}
+
+strong {
+    font-style: normal;
+    font-weight: 700;
+}
