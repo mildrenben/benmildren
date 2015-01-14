@@ -13,7 +13,7 @@ main {
    		width: 70%;
   	}
   	@media screen and (max-width: $mobile){
-  		width: 90%;
+  		width: 80%;
   	}
 }
 
@@ -94,9 +94,9 @@ main .description p:nth-child(2) {
 	position: fixed;
 	text-decoration: none;
 	top: calc(50% - 10px);
-	@media scree and (max-width: $tablet){
+	@media screen and (max-width: $tablet){
 		color: $grey;
-		padding: 5px 20px;
+		padding: 10px 20px;
 		top: calc(100% - 40px);
 		background: $color;
 	}
@@ -104,8 +104,14 @@ main .description p:nth-child(2) {
 
 .prev {
 	left: 24px;
+	@media screen and (max-width: $tablet){
+		left: 0;
+	}
 }
 
 .next {
 	right: 24px;
+	@media screen and (max-width: $tablet){
+		right: 0;
+	}
 }

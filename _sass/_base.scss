@@ -157,12 +157,9 @@ pre {
       width: 60%;
     }
     @media screen and (max-width: $tablet){
-      margin-left: calc(10% - 30px);
-      width: 70%;
-    }
-    @media screen and (max-width: $mobile){
-      margin-left: calc(4% - 30px);
-      width: 80%;
+      padding: ($spacing-unit/2) ($spacing-unit/2) 0;
+      margin-left: calc(10% - 15px);
+      width: 76%;
     }
     h1 {
         text-transform: none;

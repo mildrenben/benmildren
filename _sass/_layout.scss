@@ -189,6 +189,9 @@
         font-weight: 700;
         padding-top: 16px;
     }
+    @media screen and (max-width: $tablet){
+        line-height: 1.1;
+    }
 }
 
 .post-meta {
