@@ -71,7 +71,7 @@ So you think you're getting there in terms of HTML and CSS. Here's a few more th
 
 ---
 
-Next up in this series of posts will be Web Design, rather than coding.
+*[If you want to learn web design, please see my next blog post](http://benmildren.com/design/2015/01/17/Learning-Web-Design.html)*
 
 
 
