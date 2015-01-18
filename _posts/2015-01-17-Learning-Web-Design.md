@@ -5,8 +5,6 @@ date:   2015-01-17 16:14:00
 categories: Design
 ---
 
-#Learning Web Design
-
 *If you want to learn how to code HTML and CSS, [see my previous blog post.](http://benmildren.com/coding/2015/01/13/Learning-HTML-and-CSS-Where-to-start.html)*
 
 I'll preface this blog post by saying that Design is not something that can be learnt like one can learn code. It takes a lot of time and experience.
