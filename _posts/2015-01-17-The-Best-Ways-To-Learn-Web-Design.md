@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning Web Design"
+title:  "The Best Ways to Learn Web Design"
 date:   2015-01-17 16:14:00
 categories: Design
 ---

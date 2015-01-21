@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning HTML and CSS: Where to start"
+title:  "HTML and CSS tutorials for Beginners"
 date:   2015-01-13 14:15:00
 categories: Coding
 ---
