@@ -1,0 +1,31 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<i class="icon-home"></i>
+```
+*/
+.icon-aghicks {
+  background-image: url(../img/portfolio/web/web-spritesheet.jpg);
+  background-position: 0px 0px;
+  width: 750px;
+  height: 513px;
+}
+.icon-pizza {
+  background-image: url(../img/portfolio/web/web-spritesheet.jpg);
+  background-position: -750px -431px;
+  width: 750px;
+  height: 372px;
+}
+.icon-surfside {
+  background-image: url(../img/portfolio/web/web-spritesheet.jpg);
+  background-position: 0px -513px;
+  width: 750px;
+  height: 445px;
+}
+.icon-webdesignrepo {
+  background-image: url(../img/portfolio/web/web-spritesheet.jpg);
+  background-position: -750px 0px;
+  width: 750px;
+  height: 431px;
+}

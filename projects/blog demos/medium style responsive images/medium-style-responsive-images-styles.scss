@@ -1,0 +1,222 @@
+$primary: #ff531a;
+$black: #121212;
+$white: #FAFAFA;
+$accent: #00cd9a;
+$twitter: #55acee;
+$facebook: #3b5998;
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: $white;
+  padding: 0;
+  margin: 0;
+}
+
+$grad-start: #dd6735;
+$grad-end: #ef9856;
+//#ef9856
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  //box-shadow: 0 0 20px 2px lighten($black, 10%);
+  background: $grad-start; /* Old browsers */
+background: -moz-linear-gradient(left,  $grad-start 0%, $grad-end 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,$grad-start), color-stop(100%,$grad-end)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, $grad-start 0%,$grad-end 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  $grad-start 0%,$grad-end 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  $grad-start 0%,$grad-end 100%); /* IE10+ */
+background: linear-gradient(to right,  $grad-start 0%,$grad-end 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd6735', endColorstr='#ef9856',GradientType=1 ); /* IE6-9 */
+}
+
+nav {
+    a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    transition: all 0.2s ease-in-out;
+    line-height: 36px;
+      &:nth-child(2) { 
+        margin-right: 0;
+      }
+      &.page-link {
+      text-transform: uppercase;
+      float: left;
+      font-weight: 400;
+      padding: 0 20px;
+      }
+      &:hover {
+        transform: none;
+        background: $accent;
+        //color: $primary;
+      }
+      &.facebook, &.twitter {
+        width: 40px;
+        text-align: center;
+        padding: 0;
+      }
+      &.facebook:hover {
+        background: $facebook;
+      }
+      &.twitter:hover {
+        background: $twitter;
+      }
+    }
+}
+
+header {
+  margin: 30px 0 26px;
+}
+
+article {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0 100px; 
+  text-align: center; //For images
+  p, .author-box, h1, h2, h3, h4, h5 {
+    text-align: left;
+    width: 50%;
+    @media screen and (max-width: 1200px){
+      width: 90%;
+    }
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+h1, h2, p {
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, a {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  //text-transform: uppercase;
+  color: $white;
+  float: left;
+  margin: 6px 0 8px;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+  color: lighten($primary, 5%);
+  margin: 0 0 6px;
+}
+
+
+
+p, h5 {
+  font-family: 'Merriweather', serif;
+  color: $black;
+}
+
+h5 { 
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.head-img {
+  width: 100%;
+  height: 75%;
+  margin: -10px 0 0;
+  background: url('http://looktv.ro/wp-content/uploads/2014/12/djokovic.jpg');
+  background-size: cover;
+}
+
+article > p {
+  font-size: 1.2em;
+  line-height: 190%;
+  display: block;
+  margin: 0 auto 26px;
+  &:last-of-type {
+    margin-bottom: 60px;
+  }
+}
+
+/*.article-img {
+  width: 100%;
+  height: 560px;
+  margin: 0 0 20px 0;
+  &:nth-of-type(1){
+    background: url('http://www.lta.org.uk/NewWebsite/LTA/Images/Photos/People/Players/Players-Known/Murray-Andy/2014-Murray-OzOpenQF-Getty-620x300.jpg');
+    background-size: cover;
+  }
+}*/
+
+.article-img {
+  min-width: 30%;
+  max-width: 100%;
+  height: auto;
+  max-height: 800px;
+  margin-bottom: 20px;
+}
+
+.author-box {
+  display: inline-block;
+  img, p, a {
+    display: inline;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-size: cover;
+  }
+  p {
+    margin-left: 10px;
+  }
+  p, a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 110px;
+    padding: 8px;
+    &:first-of-type{
+      vertical-align: top;
+    }
+  }
+  a {
+    color: $primary;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border-radius: 4px;
+    &:hover {
+      background: $primary;
+      color: $white;
+    }
+  }
+  .share {
+    float: right;
+    a {
+      display: inline-block;
+      float: right;
+      margin: 0 6px 0;
+      padding: 0 10px;
+      &.facebook {
+        &:hover {
+          background: $facebook;
+        }
+      }
+      &.twitter {
+        &:hover {
+          background: $twitter;
+        }
+      }
+    }
+  }
+}
+
+html, body, main, nav, img, div, p, a, article {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
