@@ -4,7 +4,7 @@ title:  "Medium Style Responsive Images"
 date:   2015-02-25 22:15:00
 categories: Coding
 ---
-[Live Demo](/projects/blog demos/medium style responsive images/medium-style-responsive-images.html)
+[Live Demo](/projects/blog-demos/medium-style-responsive-images/medium-style-responsive-images.html)
 
 [Codepen](http://codepen.io/mildrenben/pen/YPvKjX?editors=110)
 
