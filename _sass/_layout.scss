@@ -179,7 +179,7 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-    line-height: 0.7;
+    line-height: 1.2;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -187,7 +187,8 @@
 
     h2 {
         font-weight: 700;
-        padding-top: 16px;
+        padding: 6px 0;
+        margin-bottom: 0;
     }
     @media screen and (max-width: $tablet){
         line-height: 1.1;
@@ -261,6 +262,16 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    li {
+        margin: 10px 0;
+    }
+    img, svg {
+        text-align: center;
+    }
+    .small-svg {
+        width: 50%;
+        margin-left: 40%;
     }
 }
 
