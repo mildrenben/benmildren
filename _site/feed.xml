@@ -3,10 +3,10 @@
   <channel>
     <title>Ben Mildren</title>
     <description>Ben Mildren. Web Designer and Developer.</description>
-    <link>http://www.benmildren.com//benmildren//</link>
-    <atom:link href="http://www.benmildren.com//benmildren//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Aug 2016 19:18:36 +0100</pubDate>
-    <lastBuildDate>Wed, 17 Aug 2016 19:18:36 +0100</lastBuildDate>
+    <link>https://mildrenben.github.io/benmildren//benmildren//</link>
+    <atom:link href="https://mildrenben.github.io/benmildren//benmildren//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 Aug 2016 19:23:00 +0100</pubDate>
+    <lastBuildDate>Wed, 17 Aug 2016 19:23:00 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;I set out to make a short proof of concept for a Pokemon style game using HTML, CSS and JS. It’s nothing too crazy and it’s most certainly not the optimal way to build this but it works surprisingly well.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.benmildren.com/assets/img/pokemonjs.png&quot; alt=&quot;Pokemon JS proof of concept&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mildrenben.github.io/benmildren/assets/img/pokemonjs.png&quot; alt=&quot;Pokemon JS proof of concept&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you were really serious about making a game in JS, you would probably use JS canvas. I went with using DOM elements and moving the screen and character model around using super simple things like margins at the CSS level.&lt;/p&gt;
 
@@ -24,8 +24,8 @@
 &lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/full/EPGBNb/&quot;&gt;Check it out here&lt;/a&gt;. You can change the view to see the code running it in editor view.&lt;/p&gt;
 </description>
         <pubDate>Sun, 24 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://www.benmildren.com//benmildren//coding/2016/04/24/Pokemon-with-DOM-elements.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//coding/2016/04/24/Pokemon-with-DOM-elements.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//coding/2016/04/24/Pokemon-with-DOM-elements.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//coding/2016/04/24/Pokemon-with-DOM-elements.html</guid>
         
         
         <category>Coding</category>
@@ -56,7 +56,7 @@
 
 &lt;p&gt;To conclude (because otherwise this is going to get long), I have never been more excited for something as I am for my Rift (or Vive) to arrive. I absolutely cannot wait. And you’re all invited for a demo!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.benmildren.com//assets/img/me_rift.jpg&quot; alt=&quot;Using Oculus Rift for the first time&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://mildrenben.github.io/benmildren//assets/img/me_rift.jpg&quot; alt=&quot;Using Oculus Rift for the first time&quot; /&gt;
 Me at EGX 2014 trying out Rift for the first time.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -318,8 +318,8 @@ Me at EGX 2014 trying out Rift for the first time.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Score: 8/10&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Feb 2016 10:00:00 +0000</pubDate>
-        <link>http://www.benmildren.com//benmildren//games/2016/02/18/2015-In-Review-Games.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//games/2016/02/18/2015-In-Review-Games.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//games/2016/02/18/2015-In-Review-Games.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//games/2016/02/18/2015-In-Review-Games.html</guid>
         
         
         <category>Games</category>
@@ -378,8 +378,8 @@ Me at EGX 2014 trying out Rift for the first time.&lt;/p&gt;
 &lt;p&gt;If you want to keep track of my music all year round you can follow me on &lt;a href=&quot;https://soundcloud.com/ukbenmil&quot;&gt;Soundcloud&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Jan 2016 21:00:00 +0000</pubDate>
-        <link>http://www.benmildren.com//benmildren//music/2016/01/27/2015-In-Review-Music.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//music/2016/01/27/2015-In-Review-Music.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//music/2016/01/27/2015-In-Review-Music.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//music/2016/01/27/2015-In-Review-Music.html</guid>
         
         
         <category>Music</category>
@@ -474,8 +474,8 @@ Me at EGX 2014 trying out Rift for the first time.&lt;/p&gt;
 &lt;p&gt;So I tried to keep that short but don’t really think I succeeded. The next few posts will be a lot shorter and less wordy. I’ll be doing lists of all the media I consumed in 2015 and what I’m looking to achieve in this coming year.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Jan 2016 23:00:00 +0000</pubDate>
-        <link>http://www.benmildren.com//benmildren//life/2016/01/07/2015-In-Review-Life.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//life/2016/01/07/2015-In-Review-Life.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//life/2016/01/07/2015-In-Review-Life.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//life/2016/01/07/2015-In-Review-Life.html</guid>
         
         
         <category>Life</category>
@@ -534,8 +534,8 @@ Me at EGX 2014 trying out Rift for the first time.&lt;/p&gt;
 &lt;p&gt;Talk soon guys &amp;lt;3&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Jul 2015 19:00:00 +0100</pubDate>
-        <link>http://www.benmildren.com//benmildren//coding/2015/07/09/betterforms.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//coding/2015/07/09/betterforms.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//coding/2015/07/09/betterforms.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//coding/2015/07/09/betterforms.html</guid>
         
         
         <category>Coding</category>
@@ -590,8 +590,8 @@ Me at EGX 2014 trying out Rift for the first time.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 06 May 2015 19:00:00 +0100</pubDate>
-        <link>http://www.benmildren.com//benmildren//coding/2015/05/06/rrrepo-and-!oddshot.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//coding/2015/05/06/rrrepo-and-!oddshot.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//coding/2015/05/06/rrrepo-and-!oddshot.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//coding/2015/05/06/rrrepo-and-!oddshot.html</guid>
         
         
         <category>Coding</category>
@@ -650,9 +650,9 @@ I immediately posted Surface to a bunch of places on the web once I had launched
 
 &lt;p&gt;####Metrics&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.benmildren.com//assets/img/surface_metrics.png&quot; alt=&quot;Metrics 1&quot; /&gt;
-&lt;img src=&quot;http://www.benmildren.com//assets/img/surface_metrics_2.png&quot; alt=&quot;Metrics 2&quot; /&gt;
-&lt;img src=&quot;http://www.benmildren.com//assets/img/surface_metrics_3.png&quot; alt=&quot;Metrics 3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mildrenben.github.io/benmildren//assets/img/surface_metrics.png&quot; alt=&quot;Metrics 1&quot; /&gt;
+&lt;img src=&quot;https://mildrenben.github.io/benmildren//assets/img/surface_metrics_2.png&quot; alt=&quot;Metrics 2&quot; /&gt;
+&lt;img src=&quot;https://mildrenben.github.io/benmildren//assets/img/surface_metrics_3.png&quot; alt=&quot;Metrics 3&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -730,8 +730,8 @@ I would like to change the name. After the large backlash it received, it makes 
 &lt;p&gt;If you’d like to follow my future projects, I stream most evenings on Livecoding, you can find my stream here.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 May 2015 19:00:00 +0100</pubDate>
-        <link>http://www.benmildren.com//benmildren//coding/2015/05/06/Launching-Surface.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//coding/2015/05/06/Launching-Surface.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//coding/2015/05/06/Launching-Surface.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//coding/2015/05/06/Launching-Surface.html</guid>
         
         
         <category>Coding</category>
@@ -829,8 +829,8 @@ I would like to change the name. After the large backlash it received, it makes 
 &lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/pen/azebKe&quot;&gt;Text Input Animation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 May 2015 20:00:00 +0100</pubDate>
-        <link>http://www.benmildren.com//benmildren//coding/2015/05/02/The-Making-Of-Surface.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//coding/2015/05/02/The-Making-Of-Surface.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//coding/2015/05/02/The-Making-Of-Surface.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//coding/2015/05/02/The-Making-Of-Surface.html</guid>
         
         
         <category>Coding</category>
@@ -911,8 +911,8 @@ I would like to change the name. After the large backlash it received, it makes 
 &lt;p&gt;If you have any questions, you can find me on &lt;a href=&quot;https://twitter.com/mildrenben&quot;&gt;Twitter @mildrenben&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Apr 2015 20:00:00 +0100</pubDate>
-        <link>http://www.benmildren.com//benmildren//coding/2015/04/17/Link-Hover-Effects.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//coding/2015/04/17/Link-Hover-Effects.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//coding/2015/04/17/Link-Hover-Effects.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//coding/2015/04/17/Link-Hover-Effects.html</guid>
         
         
         <category>Coding</category>
@@ -946,8 +946,8 @@ I would like to change the name. After the large backlash it received, it makes 
 &lt;p&gt;Hopefully this post will inspire you to make the change too. It takes 5 minutes and makes all your accounts more secure, just do it!&lt;/p&gt;
 </description>
         <pubDate>Thu, 26 Mar 2015 16:00:00 +0000</pubDate>
-        <link>http://www.benmildren.com//benmildren//general/2015/03/26/Starting-to-Use-A-Password-Manager.html</link>
-        <guid isPermaLink="true">http://www.benmildren.com//benmildren//general/2015/03/26/Starting-to-Use-A-Password-Manager.html</guid>
+        <link>https://mildrenben.github.io/benmildren//benmildren//general/2015/03/26/Starting-to-Use-A-Password-Manager.html</link>
+        <guid isPermaLink="true">https://mildrenben.github.io/benmildren//benmildren//general/2015/03/26/Starting-to-Use-A-Password-Manager.html</guid>
         
         
         <category>General</category>
