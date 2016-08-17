@@ -17,7 +17,7 @@ Think of each website you build like a realy life physical product. When designi
 
 ---
 
-##Aesthetic
+## Aesthetic
 
 The best thing to do whilst trying to learn great looking websites is look around and attempt to emulate other visually attractive websites.
 
@@ -29,9 +29,9 @@ The following websites can really help learning how to design a websites look an
 
 * [COLOURlovers](http://www.colourlovers.com/palettes) - A website to browse beautiful colour schemes. A great place for inspiration.
 
-* [html inspiration](http://htmlinspiration.com/) - A showcase of brilliantly designed websites for you to peruse. 
+* [html inspiration](http://htmlinspiration.com/) - A showcase of brilliantly designed websites for you to peruse.
 
-* [Awwwards](http://www.awwwards.com/) - Very much like html inspiration, Awwwards tracks beautiful websites and 
+* [Awwwards](http://www.awwwards.com/) - Very much like html inspiration, Awwwards tracks beautiful websites and
 gives ratings on each element of the design. Although some of the websites can be a little 'too flashy' it still provides a good showcase of websites.
 
 * [CSSDSGN](http://www.cssdsgn.com/) - Again, a showcase of very good looking websites which lean towards the minimal side of the visual spectrum.
@@ -42,7 +42,7 @@ gives ratings on each element of the design. Although some of the websites can b
 
 * [Typeguide](http://www.typogui.de/) - Another decent overview of typography.
 
-* [Color Theory](http://www.smashingmagazine.com/2010/01/28/color-theory-for-designers-part-1-the-meaning-of-color/#top) - Color theory is a science in itself. Studying how colors affect different people, either individually or as a group, is something some people build their careers on. 
+* [Color Theory](http://www.smashingmagazine.com/2010/01/28/color-theory-for-designers-part-1-the-meaning-of-color/#top) - Color theory is a science in itself. Studying how colors affect different people, either individually or as a group, is something some people build their careers on.
 
 * [Compose to a Vertical Rhythm](http://24ways.org/2006/compose-to-a-vertical-rhythm) - Despite being from 2006, this article still holds up today. It excellently explains how to space and arrange text on a website.
 
@@ -52,7 +52,7 @@ Also, if you think you have 'good taste' or a 'decent eye for design' but still 
 
 ---
 
-##User Experience
+## User Experience
 
 Just like the visual side of things, the actual design of websites will take a long time to learn.
 
@@ -83,29 +83,3 @@ Some great resources on user experience, user interface and design in general ar
 ---
 
 The best piece of advice I can give for those wanting to learn web design, or improve their current design skills, is exactly the same advice I gave in my previous blog post about coding. You have to try and do it everyday. Only by surrounding yourself with brilliant and beautiful design will some of it start to sink in.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

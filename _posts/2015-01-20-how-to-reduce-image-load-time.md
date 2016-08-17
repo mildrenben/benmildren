@@ -15,17 +15,17 @@ Now, let's move on to the real tips.
 
 ---
 
-##File Type
+## File Type
 
 This might seem an obvious one to some people, but it's worth exploring even if you're more experienced.
 
 Times have changed, jpeg and PNG are not the only viable formats now. We have SVG and data URI at our disposal.
 
-###jpeg
+### jpeg
 
-If you have a color image, you're often better to use jpeg. Depending on how you compress the image, you may see jpeg artifacts. Most images are fine at around 80% jpeg quality and won't show obvious artifacts. 
+If you have a color image, you're often better to use jpeg. Depending on how you compress the image, you may see jpeg artifacts. Most images are fine at around 80% jpeg quality and won't show obvious artifacts.
 
-jpeg is a lossy format and will get worse and worse the more you save it. 
+jpeg is a lossy format and will get worse and worse the more you save it.
 
 Color change is also something to watch out for. You might notice your images colors getting slightly warmer or colder; you need to check which color profile you're using when saving a jpeg.
 
@@ -33,7 +33,7 @@ Progressive JPEGs are generally marginally smaller than baseline JPEGs, but thei
 
 **Conclusion** - Best for images with lots of natural tone, changing colors and are often smaller in size. Worse results for flat color and sharp-edge art.
 
-###PNG
+### PNG
 
 The portable network graphic is fantastic for retaining transparency in images, something that jpeg cannot do. It is also lossless format, which means it won't lose quality the more you save it.
 
@@ -41,7 +41,7 @@ PNGs compress both horizontally and vertically, so solid blocks of color and sha
 
 **Conclusion** - If you have an image which needs transparency, try PNG. Also best for solid color blocks.
 
-###GIF
+### GIF
 
 GIFs can contain a maximum of 256 colors, and are therefore best for images that contain simple shapes, a limited color palette, text and other elements as opposed to photos.
 
@@ -51,7 +51,7 @@ The major advantage, and probably the only time you'll use GIF is because you ca
 
 **Conclusion** - You should probably only use GIFs for animation.
 
-###Data URI
+### Data URI
 
 Sending multiple requests to your server for different images is one of the main website slowdowns nowadays, and Data URI can help greatly with this. There is also CSS Sprites which can help, but I'll address that later in the post.
 
@@ -59,11 +59,11 @@ Data URI can be used for any type of image and you don't need to link to an exte
 
 Whilst you will be saving load time due to removing the need to request a file from your server, the code size for Data URIs is often greater than that of the original resource. So long as the HTML or CSS file is cached, this shouldn't be too much of an issue.
 
-CSS Tricks shows how to utilise this format. 
+CSS Tricks shows how to utilise this format.
 
 **Conclusion** - Data URIs can be handy for saving on a bunch of server requests, but it will make your HTML/CSS file very messy as the code for them is so large.
 
-###SVG
+### SVG
 
 Scalable vector graphics are the new cool kid on the block. Although they're not actually that new, initial release in 2001, support for SVGs is now at a level where we can use them freely. Also, with the rise of responsive web design we have more need to use them than ever before.
 
@@ -77,7 +77,7 @@ Raster images (GIF, PNG and jpeg) are based on pixels. Vector images (SVGs) are 
 
 ---
 
-##Caching
+## Caching
 
 Using your .htaccess file you can tell the browser to cache your image files. The next time someone visits your website, the computer knows that it's already downloaded the images before and just loads them from the cache, greatly reducing requests and time spent downloading.
 
@@ -87,7 +87,7 @@ Also, if you're using SVGs or Data URI you need to remember to cache the HTML or
 
 ---
 
-##Compression
+## Compression
 
 The file type section gave a lot of details on which file compression format to choose, but the best thing I can recommend is simply trying stuff out. Save your image as a jpeg and a png and see if there is a noticeable difference in quality and which file is smaller. Also, play around with the settings: could you drop the quality down to 60%? Does anti-aliasing make a noticeable difference? Could you drop from 32bit colors to 24bit, or even grayscale 8bit? Just play around a bit and see what works for you. It's all about balancing file size and image quality.
 
@@ -105,7 +105,7 @@ Remember to [Gzip you're files](https://developers.google.com/web/fundamentals/p
 
 ---
 
-##Resizing
+## Resizing
 
 Serve only the image size you need. This sounds like an obvious one, but I found myself carelessly writing off images that were slightly bigger than they'd be served at.
 
@@ -121,7 +121,7 @@ For example, the background image for this blog is is 156kb at 1920px wide, but 
 
 ---
 
-##CSS Sprites
+## CSS Sprites
 
 As I've stated before, most of the delay on loading a page is actually multiple requests to the server rather than the file size themselves. How can we go about changing that? CSS Sprites is the answer.
 
@@ -136,4 +136,3 @@ If Compass isn't really your thing or you don't use Sass, then [you may prefer t
 ---
 
 I hope this post has been of help to you and if you have any queries or questions do not hesitate to [get in touch with me on Twitter](https://twitter.com/mildrenben).
-

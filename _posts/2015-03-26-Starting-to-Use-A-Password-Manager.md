@@ -8,7 +8,7 @@ I'll get straight to the point: My passwords sucked. Really bad.
 
 They were all pretty much variations of the same password&ndash;and I used it on everything, which is awful practice.
 
-#[LastPass](https://lastpass.com/) to the rescue!
+# [LastPass](https://lastpass.com/) to the rescue!
 
 [LastPass](https://lastpass.com/) isn't the only password manager that's held in high regard; there are a bunch of reputable managers out there, you just have to find the one that fits you the best.
 
@@ -18,9 +18,9 @@ I ended up going with LastPass purely because it was the most recommended one, b
 
 ---
 
-#Just do it
+# Just do it
 
-I've been stumbling around the internet for the past 12 months knowing full well that I should be using a more secure method for my passwords, but it was just one of those things I never got around to doing. Just do it! 
+I've been stumbling around the internet for the past 12 months knowing full well that I should be using a more secure method for my passwords, but it was just one of those things I never got around to doing. Just do it!
 
 After making the plunge, you realise that it takes only 5 minutes to get setup.
 

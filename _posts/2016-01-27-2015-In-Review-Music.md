@@ -18,7 +18,7 @@ I have spent some time compiling my personal favourites of the year. Check them 
 
 ---
 
-##Best Tracks
+## Best Tracks
 
 If a 49 track playlist is a little overwhelming for you, here's a few of the more standout tracks:
 
@@ -32,7 +32,7 @@ If a 49 track playlist is a little overwhelming for you, here's a few of the mor
 
 ---
 
-##Artists to Watch
+## Artists to Watch
 
 New and upcoming music producers as well as some old favourites:
 

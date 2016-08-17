@@ -7,7 +7,7 @@ Having always been a big Pokemon fan, I figured I'd try something out to try and
 
 I set out to make a short proof of concept for a Pokemon style game using HTML, CSS and JS. It's nothing too crazy and it's most certainly not the optimal way to build this but it works surprisingly well.
 
-![Pokemon JS proof of concept]({{ site.url }}assets/img/pokemonjs.png)
+![Pokemon JS proof of concept]({{ site.url }}/assets/img/pokemonjs.PNG)
 
 If you were really serious about making a game in JS, you would probably use JS canvas. I went with using DOM elements and moving the screen and character model around using super simple things like margins at the CSS level.
 

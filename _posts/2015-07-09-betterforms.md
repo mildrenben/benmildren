@@ -19,7 +19,7 @@ Ultimately, Betterforms should increase revenues, sales, signups and any other k
 
 ---
 
-##Features
+## Features
 
 * Email suggestions
 * Input & label focus animations
@@ -34,7 +34,7 @@ Ultimately, Betterforms should increase revenues, sales, signups and any other k
 
 ---
 
-##Details
+## Details
 
 Betterforms is a pure vanilla JS (JavaScript) and CSS plugin, with no dependencies like jQuery. It is lightweight, open-source and can easily integrate into big frameworks or CMS like a Wordpress plugin can.
 
@@ -44,7 +44,7 @@ It is free to use on any non-commercial project, but requires a license for use 
 
 ---
 
-##Check it out!
+## Check it out!
 
 Please do check out the demo form and pricing at [Betterforms.co](http://betterforms.co)!
 

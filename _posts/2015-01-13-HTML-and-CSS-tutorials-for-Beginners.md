@@ -14,7 +14,7 @@ On the plus side, you will be making things within the first month or so, which 
 
 ---
 
-##HTML and CSS
+## HTML and CSS
 
 Hypertext Markup Language (HTML for short) is the standard language that websites are written in.&nbsp;
 
@@ -40,7 +40,7 @@ Although you may feel like you're going over the same things you've already lear
 
 ---
 
-##Build Something
+## Build Something
 
 Once you've completed all the tasks in the above section, I strongly advise you to think of a very simple website and just go for it. The best way to get better with HTML and CSS is to just keep using them and keep building websites.
 
@@ -50,7 +50,7 @@ If you really want to get something actually on the web, you could buy some chea
 
 ---
 
-##Practice
+## Practice
 
 I pointed it out in the previous section, but it's of the utmost importance that you practice, practice, practice. Even if it's just for 15 minutes, try and use HTML and CSS everyday (I know that's sometimes not practical, but whenever possible).&nbsp;
 
@@ -59,7 +59,7 @@ Make a [Codepen](http://codepen.io/) account and experiment with styles, tags an
 
 ---
 
-##More Little Things to Learn
+## More Little Things to Learn
 
 So you think you're getting there in terms of HTML and CSS. Here's a few more things to digest:
 
@@ -72,9 +72,3 @@ So you think you're getting there in terms of HTML and CSS. Here's a few more th
 ---
 
 *[If you want to learn web design, please see my next blog post](http://benmildren.com/design/2015/01/17/Learning-Web-Design.html)*
-
-
-
-
-
-

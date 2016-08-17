@@ -4,17 +4,17 @@ title:  "rrrepo and Oddshot"
 date:   2015-05-06 18:00:00
 categories: Coding
 ---
-#rrrepo and oddshot
+# rrrepo and oddshot
 
 These last few weeks have been incredibly hectic and busy, but most importantly exciting!
 
 I've launched my personal project I've been working on for the past 6 months. And I have another product launch in less than a weeks time (13th June, 2015).
 
-##rrrepo
+## rrrepo
 
 We have liftoff! [Check us out!](http://rrrepo.co)
 
-The rundown of what rrrepo does: 
+The rundown of what rrrepo does:
 
 The idea for rrrepo was sparked by the interest in [webdesignrepo](http://www.webdesignrepo.com), which I've ran for the past 2 years. After being approached numerous times about setting up repos for other people about other topics, I decided that this needed to be a thing: A place for people to neatly organise the best links on a given subject, and also allow for the community to upvote, comment and submit to that list.
 
@@ -28,7 +28,7 @@ During Alpha, we are limiting who can make repos, so if you would like to become
 
 ---
 
-##Oddshot
+## Oddshot
 
 The fun doesn't stop there.
 
@@ -47,4 +47,3 @@ We're going to launch !oddshot in style by having the team fly out to Dreamhack 
 ---
 
 So these are the 2 products I've been working on for the past 8 weeks solid (and hopefully the next 1 - 3 years), please do check them out :)
-

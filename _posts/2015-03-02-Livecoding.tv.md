@@ -12,7 +12,7 @@ I watch Twitch for tips, for entertainment and for background noise.
 
 ---
 
-##Introducing Livecoding.tv
+## Introducing Livecoding.tv
 
 [Livecoding.tv](http://www.livecoding.tv) is a new platform for streaming yourself code and watching others code. Currently in private beta, it's a small community of coders.
 
@@ -27,5 +27,3 @@ Since being invited to Livecoding I have streamed 3 times and am aiming to strea
 I cannot overstate my beleif and passion for this new platform and urge everybody to apply for an invite and get involved in the community. As coders and designers, we have a chance to build something great here, together.
 
 Please join me on my stream everyday at [Livecoding.tv/donmildreone](https://www.livecoding.tv/donmildreone/).
-
-
