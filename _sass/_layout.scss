@@ -162,14 +162,16 @@
 /**
  * Page content
  */
+
+ .page-content {
+   .wrapper {
+     background-color: rgba(248, 248, 248, 0.95);
+   }
+ }
+
 .wrapper header {
     margin: 0;
     width: auto;
-}
-
-.wrapper header h1 {
-    margin-bottom: 8px;
-    font-size: 30px;
 }
 
 .page-heading {
@@ -228,7 +230,8 @@
 }
 
 .post-title {
-    font-size: 42px;
+    margin-bottom: 8px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -241,7 +244,11 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 31px;
+        margin-bottom: 5px;
+        margin-top: 40px;
+        font-weight: 600;
+
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -275,10 +282,15 @@
     }
 }
 
-p a {
+p a,
+li a {
   cursor: pointer;
   text-decoration: underline;
   color: $color-light;
+}
+
+h2 a {
+  text-decoration: none;
 }
 
 strong {
@@ -287,5 +299,9 @@ strong {
 }
 
 hr {
-   margin: 40px 0; 
+   margin: 40px 0;
+}
+
+iframe {
+  margin-bottom: 18px;
 }

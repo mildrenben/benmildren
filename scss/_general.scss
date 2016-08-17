@@ -11,6 +11,10 @@
   height: 100%;
 }
 
+body {
+  background: #E8E8E8;
+}
+
 $color: #4C5C58;
 $color-light: #5B6B67;
 $color-super-light: #AFBDB9;
@@ -70,4 +74,3 @@ a {
   text-decoration: underline;
   color: $color-light;
 }
-
