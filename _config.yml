@@ -3,7 +3,7 @@ title: Ben Mildren
 email: mildrenben@gmail.com
 description: Ben Mildren. Web Designer and Developer.
 baseurl: "/benmildren/" # the subpath of your site, e.g. /blog/
-url: "http://www.benmildren.com/" # the base hostname & protocol for your site
+url: "https://mildrenben.github.io/benmildren/" # the base hostname & protocol for your site
 twitter_username: mildrenben
 github_username: mildrenben
 gems: [jekyll-paginate]
