@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ben Mildren</title>
+    <description>Ben Mildren. Web Designer and Developer.</description>
+    <link>http://www.benmildren.com//</link>
+    <atom:link href="http://www.benmildren.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 28 May 2016 14:21:30 +0100</pubDate>
+    <lastBuildDate>Sat, 28 May 2016 14:21:30 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Pokemon with DOM elements</title>
+        <description>&lt;p&gt;Having always been a big Pokemon fan, I figured I’d try something out to try and test some of my JavaScript knowledge.&lt;/p&gt;
+
+&lt;p&gt;I set out to make a short proof of concept for a Pokemon style game using HTML, CSS and JS. It’s nothing too crazy and it’s most certainly not the optimal way to build this but it works surprisingly well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.benmildren.com/assets/img/pokemonjs.png&quot; alt=&quot;Pokemon JS proof of concept&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you were really serious about making a game in JS, you would probably use JS canvas. I went with using DOM elements and moving the screen and character model around using super simple things like margins at the CSS level.&lt;/p&gt;
+
+&lt;p&gt;The battle system isn’t perfect, but the while thing actually works which is pretty damn cool.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/full/EPGBNb/&quot;&gt;Check it out here&lt;/a&gt;. You can change the view to see the code running it in editor view.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Apr 2016 00:00:00 +0100</pubDate>
+        <link>http://www.benmildren.com//coding/2016/04/24/Pokemon-with-DOM-elements.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//coding/2016/04/24/Pokemon-with-DOM-elements.html</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>2015 In Review: Games</title>
+        <description>&lt;p&gt;I’ll preface this blog post by saying that I (generally) don’t have as much time as I’d like to play video games anymore and as such I tend to prefer smaller experiences than lengthier ones. This is not to say that I don’t enjoy sinking 100 hours into a game, it just means I have to be selective about the ones I do sink a lot of time into.&lt;/p&gt;
+
+&lt;p&gt;As always last year was a fantastic year for games. Lots of great AAA titles as well as some smaller indie gems.&lt;/p&gt;
+
+&lt;p&gt;I’ll make this as simple as possible and just try to give a quick rundown of each game I’ve played this year, with scores where possible (Note - this is for games I’ve played this year, not necessarily games released this year).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;virtual-reality&quot;&gt;Virtual Reality&lt;/h2&gt;
+
+&lt;p&gt;Before we really kick this list off I want to spend a moment talking about Virtual Reality. As I’m sure many of you will know, Oculus and HTC will be launching the Rift and Vive this year, respectively. PSVR is also being touted as an end of 2016 release but nothing concrete is set for Sony’s headset, so I’ll be leaving it out of the conversation.&lt;/p&gt;
+
+&lt;p&gt;Having followed Oculus and the development of the Rift over the past 3 years it is pretty wild to think we’re within a few months of getting our hands on this revolutionary piece of tech. Strangely I never ended up buying a DK1 or DK2, looking back I’m not sure why I never did but it’s quite nice now as getting my CV1 will be a completely new experience. I have actually used the DK2 on 3 separate occasions, each for around 5 minutes and it was mind blowing. I distinctly remember my jaw dropping when trying the Rift for the first time at EGX in London back in 2014. It really cannot be overstated just how cool this thing is.&lt;/p&gt;
+
+&lt;p&gt;Eagerly waiting for the preorder page to refresh at the start of January, I was surprised to see the price tag of £529 (plus you need an £800+ PC). That is quite steep, especially after Palmer Luckey alluded to a much lower price, however I won’t go off on a tangent about the cost. I hit the preorder button a few hours after the page was up after thinking about it for quite some time. The overall cost of this will be considerable, but honestly quite cheap for such a revolutionary piece of kit. Now I’m kind of glad they went for that price point and have built the best VR headset they can rather than ship a cheaper worse product.&lt;/p&gt;
+
+&lt;p&gt;Of course I’ve also been following the HTC Vive and all other VR headsets. I am no Oculus fanboy, I’ll buy what’s best. So I’m waiting for the Vive’s preorder at the end of this month (February) and will see the price before making a decision.&lt;/p&gt;
+
+&lt;p&gt;Back to the actual Rift itself. I’ve had two experiences in my life that were truly ‘WOW! Everyone needs this’. The first was when I tried the Wii in 2006 and the second when I bought the first iPhone in 2007. VR headsets are the next WOW moment for everybody. In 10 years nearly everyone will own one of some description, just like nearly everyone owns a phone like the iPhone ten years on from its release.&lt;/p&gt;
+
+&lt;p&gt;To conclude (because otherwise this is going to get long), I have never been more excited for something as I am for my Rift (or Vive) to arrive. I absolutely cannot wait. And you’re all invited for a demo!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.benmildren.com//assets/img/me_rift.jpg&quot; alt=&quot;Using Oculus Rift for the first time&quot; /&gt;
+Me at EGX 2014 trying out Rift for the first time.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;super-smash-bros-for-wii-u-and-3ds&quot;&gt;Super Smash Bros for Wii U and 3DS&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 250+ hours&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Released at the end of 2014 the new Smash Bros game took my life by storm. After purchasing a copy for both my 3DS and my Wii U (and subsequently hunting down a gamecube controller adapter) I couldn’t stop myself playing in the first few months. I even put 11 hours into the 3DS demo!&lt;/p&gt;
+
+&lt;p&gt;Every day during the evening my brother and I would play for 1-2 hours, every single night without fail. Granted, this isn’t the beloved Melee, but it’s fantastic in it’s own right. It’s supposed to appeal to a wider audience than it’s competitive sibling Melee. There aren’t the exploits/tech skill that exist in Melee like wavedashing and L-cancelling, but new tech is being discovered all the time and I’m sure soon Smash 4 will have some sweet tech skill of it’s own.&lt;/p&gt;
+
+&lt;p&gt;The best way to describe Smash 4 is: I do not watch it over Melee, but I play it over Melee. Melee is faster and more exciting as a spectator sport, but the accessibility of Smash 4 is undeniable which makes it perfect for players without the time to invest in learning Melee. For me, it’s just as much fun when you’re playing too.&lt;/p&gt;
+
+&lt;p&gt;The online play is just awesome (with a LAN adapter) hosting up to 4 players and a For Glory mode for the more hardcore players.&lt;/p&gt;
+
+&lt;p&gt;The addition of Amiibos is a ton of fun too, kind of like having your own Pokemon that you train up and teach moves.&lt;/p&gt;
+
+&lt;p&gt;Along with a wide and diverse roster of interesting characters, 8 player smash, Gamecube controller support, a ton of different modes and campaign, fantastic affordable DLC and that classic Smash gameplay I know I’ll be playing this one for a long long time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 10/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;brothers-a-tale-of-two-sons&quot;&gt;Brothers: A Tale of Two Sons&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 3 hours [Completed]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Picked this up during a sale after seeing rave reviews about it on Reddit. Beautiful art style and an interesting concept (you control two people) made Brothers a great game. The puzzle elements were somewhat lackluster but that doesn’t stop Brothers being a worthy way to spend 3 hours of your time. Unfortunately, I felt it wasn’t as good as a lot of people on Reddit made it out to be.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 7/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;dont-starve&quot;&gt;Don’t Starve&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 90 minutes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This one just didn’t click with me. I couldn’t get into it at all. I can’t even tell you why, it just didn’t really do anything for me. Permadeath is generally something I dislike so there is that. I didn’t played it long enough to get past the early game, so I’m sure the mid game and end game were a lot more interesting but I didn’t want to commit the time as it didn’t grab me by the balls at the start.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: N/A&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;fear-3&quot;&gt;F.E.A.R 3&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 8 hours [Completed]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahhh I love me a FEAR game. They’re never ground braking, game of the year or even innovative in any fashion but they do offer a decent atmosphere and solid gunplay. If you’re interested in playing a game that walks a well trodden FPS path with some scares thrown in then you’ll do well with FEAR 3.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 7.5/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;rocket-league&quot;&gt;Rocket League&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 65 hours&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Rocket League though. A breath of fresh air in this era of gaming, Rocket League is a true innovator combining RC cars with football. It’s addictively fun and you’ll keep wanting to play game after game. Rocket League is one of those rare games that caters to hardcore and casual alike, with a low skill floor and very high skill ceiling with lots of depth all round.&lt;/p&gt;
+
+&lt;p&gt;When I first jumped on starting a game with friends and we would laugh so much and missing the ball, and hitting the ball felt like such a monumental accomplishment! Now we’re hitting wild aerials and all sorts of things we would’ve never dreamed of a few months back and we’re still having a blast. It’s what games are ultimately for, having a truck load of fun.&lt;/p&gt;
+
+&lt;p&gt;A true masterpiece.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 10/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;prison-architect&quot;&gt;Prison Architect&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 90 minutes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am not equipped to review this game in any worthwhile form, I need to play it way more. It seems like the type of game I’ll love (Theme Hospital is my jam) but I simply haven’t had the time to play it. Maybe this year.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: N/A&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;steamworld-dig&quot;&gt;SteamWorld Dig&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 4 hours [Completed]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What a wonderful little game this one turned out to be. Games like SteamWorld Dig are the reason I go through smaller indie titles, I loved it! You start off as a Robot with only the most basic equipment and have to dig down and find materials for upgrades as well as complete objectives to advance the story and move on to new areas. I think the reason I liked it so much was the upgrades to my tools and weapons. When a game does progression well it’s very noticeable and SteamWorld Dig was brilliant at progression. One of those games where you’re sad when it ends!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 8/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;angvik&quot;&gt;Angvik&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 30 mins&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A weird kind of rogue like game where you try and get as far as possible. Angvik has a small amount of random elements to it to mix up each attempt, but I never really found it very enjoyable. Not for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 3/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;serious-sam-3-bfe&quot;&gt;Serious Sam 3: BFE&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 14 hours [Completed]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Serious Sam 3 was only in my Steam library because it came with a bundle at some point, I never intended to play it. When deciding what game to play next one day, I asked my girlfriend to pick one from my library and this was it. I was close to asking her to choose again but am glad I didn’t.&lt;/p&gt;
+
+&lt;p&gt;Anyone that knows my gaming preferences knows that I adore Doom and it’s frantic pace and constant action. I wasn’t expecting SS3 to be a modern reincarnation of such a game (I went into it not really checking to even see what the game was about). It really is just mindless shooting things for the sake of shooting things, but by god if it isn’t satisfying and challenging! SS3 really managed to capture the essence of Doom (without the atmosphere) better than I’ve seen any other game do. Solid game, really enjoyed it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 8/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;the-binding-of-isaac&quot;&gt;The Binding of Isaac&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 7 hours&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve had Isaac in my library for quite some time and just a few months got round to actually playing it. Time goes fast on Isaac, it’s super easy to spend a couple hours on it. It’s testament to how good the game is that I actually spent 7 hours with it, as it’s not really my type of game. The permadeath is both frustrating and what kept luring me back to it, always wanting to get further and further. Fun items, great humour and addictive combat make it an interesting play for people that don’t even like roguelikes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 7/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;teslagrad&quot;&gt;Teslagrad&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 5 hours [Completed]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What a gorgeous and quirky little game Teslagrad turned out to be! The old school Disney hand drawn Disney feel enticed me to buy it and it did not disappoint. A super enjoyable puzzle platformer based on the phsyics of magnetism. Well worth a play for anyone who enjoys puzzle platformers.&lt;/p&gt;
+
+&lt;p&gt;It’s one of those games where you really should check out a trailer for it, it’s such a beautiful world they created and the magnetism mechanics felt perfect. Progression was also top notch, always acquiring new interesting items just when the old ones were getting a little stale.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 7.5/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;superbrothers-sword--sworcery&quot;&gt;Superbrothers: Sword &amp;amp; Sworcery&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 90 minutes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Superbrothers looked so promising when checking out the trailers, but it was such a let down in reality. The pixel art is breathtaking, however that’s all I can really say for the game. Felt like a mobile game rather than a fully fledged title (probably because it is also available on mobiles).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: N/A&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;luigis-mansion-dark-moon&quot;&gt;Luigi’s Mansion: Dark Moon&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 9 hours [Completed]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The second installment in the Luigi’s Mansion series was gripping from start to end. Unfortunately I cannot draw comparisons to the Gamecube version as I never got around to playing that, although after playing Dark Moon I will likely pick it up.&lt;/p&gt;
+
+&lt;p&gt;It has that whimsical charm that Nintendo nails time and time again. Playful animations, fantastic core gameplay and great level design make Dark Moon a must play for any 3DS owner. Sucking up those ghosts never gets old!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 8.5/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;hurtworld&quot;&gt;Hurtworld&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 36 hours&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Me and my buddies had been debating whether to try out one of the popular survival games like Rust or DayZ. Just as we were deciding Hurtworld was released and we all agreed that it looked fantastic.&lt;/p&gt;
+
+&lt;p&gt;The graphics are similar in style to Team Fortress 2 making it very easy on the eyes and playable on modest computer builds (as well as some awesome optimisation). The gameplay is pretty hardcore survival with hunger and temperature gauges knocking on your door frequently letting you know you’ll die if you stay out in the sun any longer. The gameplay was super fun and we had a blast making enemies, killing animals and crafting new items.&lt;/p&gt;
+
+&lt;p&gt;As the game is in Alpha, there are a number of issues like a lack of end game content. The thing that drove us away in the end was the server wipes. Roughly every month or so the servers get wiped (depending on the admins), and with that wipe your entire months work has been undone. I completely understand why servers are being wiped and it’s to be expected with the game being in Alpha, but it’s starts to get annoying, so we ended up stopping playing.&lt;/p&gt;
+
+&lt;p&gt;Overall it was brilliant in the time we had with it and we will definitely be returning to it in a few months time to see what updates have been made to the game. Highly recommended for survival lovers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 9/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;halo-5-guardians&quot;&gt;Halo 5: Guardians&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 90 hours [Completed]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Xbox One in my living room was only ever purchased to play Halo and Gears of War. The system doesn’t have many good exclusives besides the aforementioned duo, so I was hoping Gears of War Ultimate Edition and Halo 5 were going to be fantastic.&lt;/p&gt;
+
+&lt;p&gt;Halo 5: Guardians lived up to my expectations, for a short while. I remember the days of Halo 3 when it became a staple part of my gaming for the next few years and I really wanted to be playing Halo 5 years past release. Halo 5 has already kind of dropped off of my radar just 3 months on from launch. I think one of the main reasons is lack of content. It obviously had to hit deadlines and was released in an unfinished state, omitting Halo classics like Forge mode, Big Team Battles, social playlists and custom game options. Where is the doubles game mode? Where is the CTF only game mode (or even Team Objective)? Some of the decisions are baffling.&lt;/p&gt;
+
+&lt;p&gt;On a better note, the core gameplay and campaign are excellent. I persevered through the campaign on Legendary solo and it was absolutely amazing. Loved every minute of it. The graphics are great, the weapons feel solid, the worlds I was dropped in to were gorgeous and the soundtrack was breathtaking. Seriously, the score for this game is one of the best I’ve ever heard. The story is a little strange but it didn’t stop me from really enjoying the campaign.&lt;/p&gt;
+
+&lt;p&gt;The online was also great for the time that I played it. Gone are the crappy loadouts from Halo 4 and all the abilities introduced in Reach. Now everyone is equipped with sprint and thruster, which actually improve the gameplay rather than detract like the abilities before it. Coupled with the new clamber feature, mobility in Halo 5 is drastically quicker, bringing it more in line with modern FPS’s but still maintaining that distinctive Halo feel. It’s different, it’s not Halo 3 anymore, but it feels good, a step in the right direction, an evolution of the series.&lt;/p&gt;
+
+&lt;p&gt;My favourite addition to Halo 5 is the is the Warzone multiplayer game modes. They’re an absolute blast with some friends and downright addictive when trying to get more REQ points to unlock packs of gear to use in your next fight. Again, lack of maps made the mode a little stale after a while, I mean 3 maps is just not enough. They have since added another map through free DLC, but player retention will always be low if there isn’t enough at the start.&lt;/p&gt;
+
+&lt;p&gt;Overall it still feels like a worthy Halo title and I will likely go back to it at some point.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 9/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;gears-of-war-ultimate-edition&quot;&gt;Gears of War: Ultimate Edition&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 39 hours&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As mentioned above, I bought my Xbox One purely for Gears and Halo. Gears of War 1 and Halo 3 were my most played games back in the day and I wanted to relive those moments again on Xbox One. Sure Gears UE is just Gears 1 with a reskin and couple of fixes here and there but I was still super hyped. Me and my buddies were ready to have Gears and Halo back in our lives and re-live the golden days.&lt;/p&gt;
+
+&lt;p&gt;Gears UE follows a similar story to Halo 5 - I loved it and played it to death in it’s first few weeks of release, but then it kind of fell by the wayside. Suffering almost the exact same fate of Halo 5, Gears UE had some very questionable and poor decisions regarding game modes. Warzone and Execution were only 4 rounds to win, like wtf Epic? I have no idea why they did this, it makes zero sense. They have recently changed it to first to 5 on Execution but as I mentioned in the Halo 5 it’s too little too late. Most of the original userbase will have left by now. They also removed Warzone all together, why?! They seem to think that Team Deathmatch is a more worthy game mode than Warzone, as Team Deathmatch remains, which is just not the Gears 1 I remember and love.&lt;/p&gt;
+
+&lt;p&gt;Outside of gamemodes they have fixed a few bugs and removed the notoriously horrible one shot down sniper which is a great addition. The game also looks gorgeous with it’s new and improved textures and lighting.&lt;/p&gt;
+
+&lt;p&gt;Although I haven’t touched the campaign, I’ve been told it’s plagued by awful framerates which is a shame. Again like Halo 5, this game feels rushed for release before the holidays. Microsoft obviously realised that the Xbox One was being beat out by the PS4 and wanted to get their two flag ship titles out before the holidays, to the detriment of the quality of the games.&lt;/p&gt;
+
+&lt;p&gt;Despite this critical analysis, I’ve played it quite a lot and enjoyed it a lot. I’m never going to be 15 again playing Gears 1 for the first time, but this doesn’t feel too far off of it. I will be coming back to Gears for quite a while I feel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 8.5/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;super-mario-maker&quot;&gt;Super Mario Maker&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 11 hours&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My girlfriend bought me this as a Christmas gift, so my time with it in 2015 was limited. From my short time with the game it’s pretty easy to tell just how good it is. It oozes quality in every department.&lt;/p&gt;
+
+&lt;p&gt;In typical Nintendo fashion it falls slightly short in the social/online aspect, although this is be Nintendo’s best effort in the online space so far and the issues I have with it are pretty tough to fix. It’s not Nintendo’s usual online failures either. You can follow people to get their latest maps, you can star levels, there’s a plethora of ways to find maps, Nintendo runs a brilliant ‘event mode’ where they put out their own maps, and you can see some cool stats on each map like completion percentage and world record time. Where the online falls short is actually something that is very hard to get right and isn’t just something Nintendo would struggle with. I’m referring to the finding and displaying of high quality level.s&lt;/p&gt;
+
+&lt;p&gt;Other than the (small) shortcomings in the online aspect, I cannot find a single fault. This game is absolutely outstanding in every respect. Building levels using the touch screen is perfect. The UI is just drop dead gorgeous. The amount of items, level backgrounds and game styles is more than enough. All the different modes are fantastic. And, of course, the platforming is as good as it’s ever been.&lt;/p&gt;
+
+&lt;p&gt;Using sites like Reddit to find and follow the best makers out there makes the whole thing flawless. The ingenuity of some of these levels is out of this world. Some go beyond the quality of Nintendo’s own levels. Puzzles, platforming, aesthetics, it’s all here and then some.&lt;/p&gt;
+
+&lt;p&gt;If you own a Wii U, just go buy it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 9.5/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;antichamber&quot;&gt;Antichamber&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 7 hours&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll kick this one off by saying that it’s not for everyone. The closest game you can compare it to is Portal, but even then Antichamber is uniquely different. It is absolutely innovative in such a beautiful way.&lt;/p&gt;
+
+&lt;p&gt;I picked Antichamber up on the cheap during a Steam sale towards the end of the year. I did not expect such a masterpiece. There is almost nothing negative to say about it. The only criticism I can muster is it’s confusing when you first jump on it. For the first 30-60 minutes you will be a little disorientated, which could easily put people off, but anyone that makes it past this will be in for a brilliant game.&lt;/p&gt;
+
+&lt;p&gt;Antichamber employs a non-euclidean map, which is half the reason it’s confusing at first. The non-euclidean nature of the game adds to many of the puzzles and brings the whole world together in spectacular fashion.&lt;/p&gt;
+
+&lt;p&gt;The art style, the clinical minimal world, the ‘weapon’ that you use to move blocks; everything is unique in Antichamber, everything is different.&lt;/p&gt;
+
+&lt;p&gt;I would call it an exploration game just as much of a puzzler. Or at least that exploring the world and piecing it together is the biggest puzzle in the game. There are so many ‘aha!’ moments when you figure out that this room connects to that room. ‘Oh yeah, I’ve been here before’ was thought many times.&lt;/p&gt;
+
+&lt;p&gt;The progression of the ‘guns’ was very well paced too. The puzzles were kind of colour coded to show which gun you would need for that section, which aided in understanding which direction to pursue. In that sense I guess it’s kind of open world, it’s certainly not linear. I say kind of open world because it’s not really. The world isn’t enormous like some vast spanning Witcher 3 type world, and you can’t always go to certain areas before others.&lt;/p&gt;
+
+&lt;p&gt;It’s really hard to encapsulate Antichamber in words. I would just run out of superlatives if I did anyway. The most fitting word, which I’ve used a lot already, is unique. You truly have to play it to really get a feel for what this game is. The puzzles are perfectly progressive, always offering a good challenge and a very satisfying success.&lt;/p&gt;
+
+&lt;p&gt;I just cannot overstate how brilliant this game really is. I was so sad when it came to an end but also felt a great sense of accomplishment. It’s like some weird mix of trippy drug induced experience and game. It really stayed with me after completion. Loved every minute of it. Perfect.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 10/10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;pokemon-omega-ruby&quot;&gt;Pokemon Omega Ruby&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time played: 48 hours&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll keep this one short because everyone knows Pokemon. I’m a huge fan of the series, played every main entry and love them all. Omega Ruby is a remake of Ruby for the 3DS, using the same engine X and Y use. So we now have all the bells and whistles from X and Y in Ruby like the 3D battles and 3D overworld. I say 3D, meaning 3D like Super Mario 64 stepped into the third dimension. Only the battles are in 3DS 3D, actually sending two different images to your eyes.&lt;/p&gt;
+
+&lt;p&gt;There’s not a lot to say here. We all know how Pokemon works, plus it’s a remake. A lot of people who are avid fans of a series want a series to move forward and evolve with each iteration but I just want Pokemon to stay exactly the same. I love the core formula so much I don’t want anything else. Maybe I’ll be proved wrong and they’ll add some features or change some things up and I’ll love it even more but I can’t see it (although it would be amazing). For me I want handheld Pokemon games to be the same forever just with new Pokemon, and try cool new ideas out on the home console. More Colosseum, Snap and Stadium type games on home consoles would be awesome. Pokemon MMORPG on home console would be the best thing to happen ever.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score: 8/10&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Feb 2016 10:00:00 +0000</pubDate>
+        <link>http://www.benmildren.com//games/2016/02/18/2015-In-Review-Games.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//games/2016/02/18/2015-In-Review-Games.html</guid>
+        
+        
+        <category>Games</category>
+        
+      </item>
+    
+      <item>
+        <title>2015 In Review: Music</title>
+        <description>&lt;p&gt;This is the second in a series of posts in which I’ll review my year in 2015.&lt;/p&gt;
+
+&lt;p&gt;Almost every second of my time alive is spent listening to music. Stepping back to view my tastes on a larger scale across my life I have listened to an eclectic and varied mix of music, but each few years is often dominated by one particular sound.&lt;/p&gt;
+
+&lt;p&gt;The current wave I’m riding right now is a more electronic/future/soulful vibe being put out by collectives like &lt;a href=&quot;https://soundcloud.com/soulection&quot;&gt;Soulection&lt;/a&gt; and &lt;a href=&quot;https://soundcloud.com/huhwhatandwhere&quot;&gt;Huh, What and Where&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;2015 has been a fantastic year for this new vibe, ever evolving and refining the raw 2011-12 sound, championed by artists such as &lt;a href=&quot;https://soundcloud.com/midnightabjo&quot;&gt;AbJo&lt;/a&gt;, &lt;a href=&quot;https://soundcloud.com/tommisch&quot;&gt;Tom Misch&lt;/a&gt;, &lt;a href=&quot;https://soundcloud.com/samgellaitry&quot;&gt;Sam Gellaitry&lt;/a&gt; and &lt;a href=&quot;https://soundcloud.com/geotheorymusic&quot;&gt;GEOTHEORY&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have spent some time compiling my personal favourites of the year. Check them out here as a playlist on Soundcloud.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/188044505&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;best-tracks&quot;&gt;Best Tracks&lt;/h2&gt;
+
+&lt;p&gt;If a 49 track playlist is a little overwhelming for you, here’s a few of the more standout tracks:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/191526274&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221264952&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/195403037&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215730374&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;artists-to-watch&quot;&gt;Artists to Watch&lt;/h2&gt;
+
+&lt;p&gt;New and upcoming music producers as well as some old favourites:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/samgellaitry&quot;&gt;Sam Gellaitry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/tastytreatmusic&quot;&gt;Tasty Treat&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/veens&quot;&gt;Veens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/imgoldwater&quot;&gt;Goldwater&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/tommisch&quot;&gt;Tom Misch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/sglewis&quot;&gt;SG Lewis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/whereisalex&quot;&gt;whereisalex&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/oshi&quot;&gt;oshi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/kource&quot;&gt;Kource&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/chiara-noriko&quot;&gt;Chiara Noriko&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you want to keep track of my music all year round you can follow me on &lt;a href=&quot;https://soundcloud.com/ukbenmil&quot;&gt;Soundcloud&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Jan 2016 21:00:00 +0000</pubDate>
+        <link>http://www.benmildren.com//music/2016/01/27/2015-In-Review-Music.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//music/2016/01/27/2015-In-Review-Music.html</guid>
+        
+        
+        <category>Music</category>
+        
+      </item>
+    
+      <item>
+        <title>2015 In Review: Life</title>
+        <description>&lt;p&gt;This is the first in a series of posts in which I’ll review my year in 2015. They won’t be too long, more of an outline.&lt;/p&gt;
+
+&lt;p&gt;2015 meant a whole lot of changes for my life: I moved jobs and moved residency, two very big things.&lt;/p&gt;
+
+&lt;h2 id=&quot;redundancy&quot;&gt;Redundancy&lt;/h2&gt;
+&lt;p&gt;In January I was made redundant after a rough year for the company I worked for, Hawes Signs. I was a Mechanical Engineer at the signage company during my 4 years there.&lt;/p&gt;
+
+&lt;p&gt;As cliche as it sounds, this was the best thing that’s happened to my career. I never really enjoyed Engineering and ultimately always knew it wasn’t for me, but actually jumping ship and pursuing my dreams was too scary a prospect.&lt;/p&gt;
+
+&lt;p&gt;During my free time at Hawes I had learnt and honed web design and development, which I’ve always been enamoured by.&lt;/p&gt;
+
+&lt;p&gt;I decided to pursue the whole web thing once I was let go and it was the best decision I’ve ever made.&lt;/p&gt;
+
+&lt;h2 id=&quot;isams&quot;&gt;iSAMS&lt;/h2&gt;
+
+&lt;p&gt;Within 2 weeks of leaving Hawes I had an interview with a company called iSAMS for a Front End Developer and Designer role. I was successful in my application and started working in February.&lt;/p&gt;
+
+&lt;p&gt;iSAMS is basically a big modular web app for schools that manages things such as registration, exams etc. I liaised with schools and worked on designs for their websites and coded the CSS for it. I built a CSS framework whilst there.&lt;/p&gt;
+
+&lt;p&gt;The whole idea of working in the web world was amazing to me (and still is). You tell people you are a Web Designer or a Web Developer and they think that it’s awesome, which is pretty cool.&lt;/p&gt;
+
+&lt;p&gt;My time at iSAMS was great. Loved the people, enjoyed the job and will be eternally grateful to them for giving me my first shot at the web world.&lt;/p&gt;
+
+&lt;p&gt;I was offered a job at Oddshot in August which I accepted.&lt;/p&gt;
+
+&lt;h2 id=&quot;livecodingtv&quot;&gt;Livecoding.tv&lt;/h2&gt;
+
+&lt;p&gt;During March I noticed a website in beta called Livecoding.tv. Livecoding is exactly what it says on the tin, it’s Twitch for coders.&lt;/p&gt;
+
+&lt;p&gt;I signed up for the beta and began streaming myself code little bits here and there. In the months that followed I streamed as often as possible, usually 3-5 times a week for around 3-4 hours each time.&lt;/p&gt;
+
+&lt;p&gt;I like to think I harboured a small following whilst streaming on LCTV and gained some good friends, but unfortunately due to time constraints I haven’t been able to stream for the past five or six months.&lt;/p&gt;
+
+&lt;p&gt;I remain the 5th most followed person on the site, 1st in the UK and 1st in HTML &amp;amp; CSS which I’m pretty proud of. I was also offered to be an official partner of LCTV which I haven’t had the time to pursue. I will 100% be returning to LCTV at some point. If you feel like this might be something you’re interested in, &lt;a href=&quot;https://www.livecoding.tv/donmildreone/&quot;&gt;check out my channel&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2 id=&quot;rrrepo&quot;&gt;rrrepo&lt;/h2&gt;
+
+&lt;p&gt;Now, timeline wise there is a lot of overlap here. My verse on Oddshot or Livecoding could fit here too, but I’m trying to order it chronologically by each sections main event.&lt;/p&gt;
+
+&lt;p&gt;I have been working on the idea of &lt;a href=&quot;http://rrrepo.co&quot;&gt;rrrepo&lt;/a&gt; for a long, long time now. The project is summarised in a post from last year which can be &lt;a href=&quot;http://benmildren.com/coding/2015/05/06/rrrepo-and-!oddshot.html&quot;&gt;found here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;From when I started working on &lt;a href=&quot;http://webdesignrepo.com&quot;&gt;webdesignrepo&lt;/a&gt; I spent around 2 years working on rrrepo (not full time) which released in July.&lt;/p&gt;
+
+&lt;p&gt;And it was a complete flop.&lt;/p&gt;
+
+&lt;p&gt;Flop is an appropriate word, not failure. I don’t see the two as synonymous.&lt;/p&gt;
+
+&lt;p&gt;rrrepo simply didn’t catch on like I’d hoped it would garnering 20k views a month at best. We were featured on Product Hunt and were well received, being the 2nd top product of the day. We had a few high scoring submissions of Reddit and were top of HackerNews for one day as well. Obviously a few posts here and there aren’t enough to sustain a high reaching website.&lt;/p&gt;
+
+&lt;p&gt;Looking back after 7 months, I know exactly the reasons why rrrepo wasn’t the success I thought it would be. First and foremost, the design is absolutely horrible, which I have to laugh about. I consider myself to have a good eye for design and in retrospect I completely butchered both the aesthetic side of the design and more importantly the actual UI and user flow throughout the site. Pair the horrible design with a complete lack of marketing and you have a flop.&lt;/p&gt;
+
+&lt;p&gt;It’s a real shame because I poured my heart and soul into rrrepo but as I stated before I don’t see it as a failure because of how much I have personally learnt about running a project like this and also how much I learnt about the field of curation.&lt;/p&gt;
+
+&lt;p&gt;I’m still totally stoked about the idea of a great community curated platform for high quality resources and I will definitely return to the space at some point with all my lessons learnt.&lt;/p&gt;
+
+&lt;h2 id=&quot;oddshot&quot;&gt;Oddshot&lt;/h2&gt;
+
+&lt;p&gt;I began working with &lt;a href=&quot;http://oddshot.tv&quot;&gt;Oddshot&lt;/a&gt; back in February and joined the team officially in September, which is why it’s in this position in the list.&lt;/p&gt;
+
+&lt;p&gt;Oddshot approached me to start working on a cool little MVP for them after seeing some of my posts on /r/webdesign. Initially I thought it was a small gaming clans forum or something, but I quickly realised it was something with the potential to be a lot bigger. Oddshot is a Chrome plugin that allows you to instantly capture the last 40 seconds of footage on a Twitch stream (or at least was, we’re building out a whole platform now).&lt;/p&gt;
+
+&lt;p&gt;I streamed a lot of my work on Oddshot related things over on Livecoding.tv which was a lot of fun. July the 14th I flew out to Sweden to attend Dreamhack and officially launch Oddshot as a product. Dreamhack was such a blast, like a festival for gaming. I met up with the team who I get along really well with, we played some CS:GO, looked at some cool new game booths and I’m pretty sure I almost froze to death one night because someone stole the good quilt, all round great experience. 10/10 would freeze again. Most importantly the product launch went well, not ground breaking but decent.&lt;/p&gt;
+
+&lt;p&gt;Within days the numbers were growing to levels we really didn’t anticipate. This was a real thing now, something people loved and wanted to use, we had to continue working on it and making it the best damn product possible.&lt;/p&gt;
+
+&lt;p&gt;Come September and I quit my job at iSAMS to join the Oddshot team officially as one of two developers. I couldn’t be happier to say I work as a Web Developer for such a kick ass company as Oddshot. In combines my two biggest passions in life, development and gaming, what could be better right? I also get to work with some people who I genuinely connect with which is pretty awesome too.&lt;/p&gt;
+
+&lt;p&gt;Sometime during October I flew out to Finland for a sprint with the team for 2 weeks. As expected we had a pretty sweet time again, lots of work done during the day and lots of drinking at night. If there’s one thing I took away from that trip it’s that when a Finnish person says to you ‘shall we go out for a drink’, they don’t mean a pint or two like in the UK, they mean all night until 3am!&lt;/p&gt;
+
+&lt;p&gt;Oddshot is currently going better than ever and I’m hoping I’ll stay with the company for a very long time.&lt;/p&gt;
+
+&lt;h2 id=&quot;moving-out&quot;&gt;Moving Out&lt;/h2&gt;
+
+&lt;p&gt;After talking about it for what seemed like an eternity my girlfriend, Zoe, and I decided to move in together. Woo, go us!&lt;/p&gt;
+
+&lt;p&gt;At the end of October we started renting a flat not far from where we used to both live and it’s been just as awesome as I thought it would be. I lived with my parents before moving out and I thought it was going to be pretty weird having to actually do things around the house but it’s all gone pretty swimmingly. People over estimate how much there is to do and they also overestimate the cost of living, but maybe that’s just me.&lt;/p&gt;
+
+&lt;p&gt;Overall Zoe and I have loved it. We were told a lot “oh once you live together you’ll find loads of things that annoy you about your partner” which just hasn’t been true. I mean, I’m not saying there are &lt;em&gt;no&lt;/em&gt; things that I’ve found annoying (leaving bath towels on door handles eh Zoe?) ;) We also had a brilliant Christmas and New Years!&lt;/p&gt;
+
+&lt;p&gt;I’m looking forward to a great year together in our new home :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;So I tried to keep that short but don’t really think I succeeded. The next few posts will be a lot shorter and less wordy. I’ll be doing lists of all the media I consumed in 2015 and what I’m looking to achieve in this coming year.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Jan 2016 23:00:00 +0000</pubDate>
+        <link>http://www.benmildren.com//life/2016/01/07/2015-In-Review-Life.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//life/2016/01/07/2015-In-Review-Life.html</guid>
+        
+        
+        <category>Life</category>
+        
+      </item>
+    
+      <item>
+        <title>Betterforms - A plugin for making forms better</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://betterforms.co&quot;&gt;Betterforms.co&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the past week or so I’ve been finishing off and polishing a new plugin that I have released.&lt;/p&gt;
+
+&lt;p&gt;The plugin is called Betterforms and it provides a whole host of awesome tools for making forms suck less.&lt;/p&gt;
+
+&lt;p&gt;Form abandonment rates are insanely high (with Formisimo putting the number as high as 73%), and it’s no wander considering how bad forms generally are.&lt;/p&gt;
+
+&lt;p&gt;Betterforms aims to bring down that figure down by reducing form abandonment rates and making the user experience and user interface flow a lot of smoother.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, Betterforms should increase revenues, sales, signups and any other kind of form you have by making the experience as painless as possible.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Email suggestions&lt;/li&gt;
+  &lt;li&gt;Input &amp;amp; label focus animations&lt;/li&gt;
+  &lt;li&gt;Clear button&lt;/li&gt;
+  &lt;li&gt;Show password button&lt;/li&gt;
+  &lt;li&gt;Information tooltips&lt;/li&gt;
+  &lt;li&gt;Automatic required mark&lt;/li&gt;
+  &lt;li&gt;Checkbox animations&lt;/li&gt;
+  &lt;li&gt;Radio button animations&lt;/li&gt;
+  &lt;li&gt;Textarea styling&lt;/li&gt;
+  &lt;li&gt;Select styling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;Betterforms is a pure vanilla JS (JavaScript) and CSS plugin, with no dependencies like jQuery. It is lightweight, open-source and can easily integrate into big frameworks or CMS like a Wordpress plugin can.&lt;/p&gt;
+
+&lt;p&gt;It is free to use on any non-commercial project, but requires a license for use on commercial projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://betterforms.co/license.html&quot;&gt;You can find the licensing details here&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;check-it-out&quot;&gt;Check it out!&lt;/h2&gt;
+
+&lt;p&gt;Please do check out the demo form and pricing at &lt;a href=&quot;http://betterforms.co&quot;&gt;Betterforms.co&lt;/a&gt;!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Talk soon guys &amp;lt;3&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jul 2015 19:00:00 +0100</pubDate>
+        <link>http://www.benmildren.com//coding/2015/07/09/betterforms.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//coding/2015/07/09/betterforms.html</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>rrrepo and Oddshot</title>
+        <description>&lt;h1 id=&quot;rrrepo-and-oddshot&quot;&gt;rrrepo and oddshot&lt;/h1&gt;
+
+&lt;p&gt;These last few weeks have been incredibly hectic and busy, but most importantly exciting!&lt;/p&gt;
+
+&lt;p&gt;I’ve launched my personal project I’ve been working on for the past 6 months. And I have another product launch in less than a weeks time (13th June, 2015).&lt;/p&gt;
+
+&lt;h2 id=&quot;rrrepo&quot;&gt;rrrepo&lt;/h2&gt;
+
+&lt;p&gt;We have liftoff! &lt;a href=&quot;http://rrrepo.co&quot;&gt;Check us out!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The rundown of what rrrepo does:&lt;/p&gt;
+
+&lt;p&gt;The idea for rrrepo was sparked by the interest in &lt;a href=&quot;http://www.webdesignrepo.com&quot;&gt;webdesignrepo&lt;/a&gt;, which I’ve ran for the past 2 years. After being approached numerous times about setting up repos for other people about other topics, I decided that this needed to be a thing: A place for people to neatly organise the best links on a given subject, and also allow for the community to upvote, comment and submit to that list.&lt;/p&gt;
+
+&lt;p&gt;The days of Github lists are over.&lt;/p&gt;
+
+&lt;p&gt;The days of entire websites dedicated to a list are over. I’m looking at you &lt;a href=&quot;http://chats.directory&quot;&gt;chats.directory&lt;/a&gt; - instead you can check out the &lt;a href=&quot;https://rrrepo.co/repo/slackChats&quot;&gt;slackChats repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please do take a look at &lt;a href=&quot;http://rrrepo.co&quot;&gt;rrrepo&lt;/a&gt;, and sign up for a chance to discover new resources on all of your favourite topics.&lt;/p&gt;
+
+&lt;p&gt;During Alpha, we are limiting who can make repos, so if you would like to become a moderator of a repo during the current Alpha phase, please contact us on &lt;a href=&quot;https://twitter.com/rrrepo_&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;oddshot&quot;&gt;Oddshot&lt;/h2&gt;
+
+&lt;p&gt;The fun doesn’t stop there.&lt;/p&gt;
+
+&lt;p&gt;I’m part of a team that’ll be launching a product called Oddshot on the 13th June.&lt;/p&gt;
+
+&lt;p&gt;The rundown of what Oddshot does:&lt;/p&gt;
+
+&lt;p&gt;Ever been watching a Twitch stream and wanted an instant replay? Well now you can. Oddshot is a browser plugin that allows users to simply type !shot into Twitch chat and you’ll be given the last 30 seconds of the stream as a video.&lt;/p&gt;
+
+&lt;p&gt;eSports instant replays by the fans, for the fans. This is such a needed step forward in the streaming world that I couldn’t be more certain of its success.&lt;/p&gt;
+
+&lt;p&gt;We’re going to launch !oddshot in style by having the team fly out to Dreamhack in Sweden, one of Europes biggest eSports events.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.oddshot.tv&quot;&gt;Checkout the prelaunch page here&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;So these are the 2 products I’ve been working on for the past 8 weeks solid (and hopefully the next 1 - 3 years), please do check them out :)&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 06 May 2015 19:00:00 +0100</pubDate>
+        <link>http://www.benmildren.com//coding/2015/05/06/rrrepo-and-!oddshot.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//coding/2015/05/06/rrrepo-and-!oddshot.html</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>Launching Surface</title>
+        <description>&lt;p&gt;Following my post on &lt;a href=&quot;http://benmildren.com/coding/2015/05/02/The-Making-Of-Surface.html&quot;&gt;the making of my framework&lt;/a&gt;, it has now launched.&lt;/p&gt;
+
+&lt;h2 id=&quot;surface-has-lifted-off&quot;&gt;Surface has lifted off!&lt;/h2&gt;
+
+&lt;p&gt;First and foremost, check it out here at &lt;a href=&quot;http://iamsurface.com/&quot;&gt;iamsurface.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let’s review what went well, what went wrong and what the future will hold.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;what-went-right&quot;&gt;What went right?&lt;/h3&gt;
+
+&lt;h4 id=&quot;css-only&quot;&gt;CSS only&lt;/h4&gt;
+&lt;p&gt;The biggest limitation I placed upon myself was the CSS only rule. I figured it might be impossible to achieve all the features that I felt were necessary for a framework using only CSS, or SCSS to be more specific. But I was pleasantly surprised at the extent to which you can take CSS.&lt;/p&gt;
+
+&lt;p&gt;The most limiting factor is the fact that CSS doesn’t really have any on/off states…except for checkboxes and radio buttons. So I abused the hell out of them!&lt;/p&gt;
+
+&lt;h4 id=&quot;the-size-of-surface&quot;&gt;The size of Surface&lt;/h4&gt;
+&lt;p&gt;In total, including all the features, Surface weighs in at ~ 5.7kb minified and gzipped. That is absolutely tiny and I couldn’t be happier with this result.&lt;/p&gt;
+
+&lt;p&gt;This was such a major accomplishment for me, considering how large the neighbouring frameworks are. I posted this list in the &lt;a href=&quot;http://benmildren.com/coding/2015/05/02/The-Making-Of-Surface.html&quot;&gt;last blog post&lt;/a&gt;, but I’ll throw it in here as well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bootstrap - 174kb minified. No fonts. 1 dependency. 5 files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Foundation - 483kb minified. No fonts. 5 dependencies. 8 files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Materialize - 252kb minified. No fonts. 1 dependency. 3 files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Surface - 5.7kb minified and gzipped. No fonts. 0 dependencies. 1 file.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not only is the file size considerably smaller than the rest of the big gunner frameworks out there today, but the dependencies and amount of files are less too.&lt;/p&gt;
+
+&lt;h4 id=&quot;reception&quot;&gt;Reception&lt;/h4&gt;
+&lt;p&gt;I immediately posted Surface to a bunch of places on the web once I had launched it. Places like Reddit, Designernews and Twitter.&lt;/p&gt;
+
+&lt;p&gt;Where did it do best? Reddit. It’s always Reddit. I frickin’ love the Reddit community.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.reddit.com/r/web_design/comments/34r3ly/introducing_surface/&quot;&gt;/r/web_design post&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.reddit.com/r/webdev/comments/34r3n6/introducing_surface/&quot;&gt;/r/webdev post&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;metrics&quot;&gt;Metrics&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.benmildren.com//assets/img/surface_metrics.png&quot; alt=&quot;Metrics 1&quot; /&gt;
+&lt;img src=&quot;http://www.benmildren.com//assets/img/surface_metrics_2.png&quot; alt=&quot;Metrics 2&quot; /&gt;
+&lt;img src=&quot;http://www.benmildren.com//assets/img/surface_metrics_3.png&quot; alt=&quot;Metrics 3&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;what-went-wrong&quot;&gt;What went wrong?&lt;/h3&gt;
+
+&lt;h4 id=&quot;the-name&quot;&gt;The name&lt;/h4&gt;
+&lt;p&gt;What a collosal mistake I made with the name.&lt;/p&gt;
+
+&lt;p&gt;Of course, I was well aware of the Microsoft product of the same name when considering names, I just didn’t feel that it would be that big of a deal to use the same name for my framework. Boy was I wrong.&lt;/p&gt;
+
+&lt;p&gt;My thought process was:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The framework is based on Material Design, and a surface is a material (kind of)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A surface is a metaphor for foundations, something you can build on top of&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It’s a cool name&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The feedback received:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Searching for anything related to Surface will be eclipsed by Microsoft’s Surface.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Because of the unintentional connotations of the relationship with Microsoft’s product, people were expecting Surface to be a spin on the Metro design style, not Material.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I was hoping this was a spin on the Metro design language given the name, but then it’s Material (which in some ways is a spin on the Metro design language, which is a spin on Swiss design). So…a Microsoft name and a Google design language. So confusing.&lt;/p&gt;
+
+&lt;p&gt;The above is a comment from one of the Reddit posts.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-future&quot;&gt;The future&lt;/h3&gt;
+&lt;p&gt;All in all, Surface was a great success. You’ll notice that the only thing I really felt went wrong was the choice of name.&lt;/p&gt;
+
+&lt;p&gt;Despite the name, Surface was an excellent learning experience for myself and hopefully I’ll have helped others with a tidy, lightweight framework going forward.&lt;/p&gt;
+
+&lt;h4 id=&quot;extra-features&quot;&gt;Extra features&lt;/h4&gt;
+&lt;p&gt;Whilst the CSS only rule was fun, to really move Surface forward I feel I must embrace Javascript. If I do ditch the CSS rule, I’ll be sure to use Javascript in a super light fashion also.&lt;/p&gt;
+
+&lt;p&gt;Features I’d like to include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Carousel&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Page transitions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;More animations&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Github repo for Surface has already had a few pull requests merged and issues fixed. I won’t be abandoning Surface anytime soon, and hope to really expand on it over the next year or so.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-name-1&quot;&gt;The name&lt;/h4&gt;
+&lt;p&gt;I would like to change the name. After the large backlash it received, it makes sense to change it’s name. But when?&lt;/p&gt;
+
+&lt;p&gt;As more and more time elapses, the harder it will be to change the name as it will take on a brand identity of its own.&lt;/p&gt;
+
+&lt;p&gt;So this is a big maybe…I’m not sure if it’ll happen.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Overall, I hope you enjoy &lt;a href=&quot;http://www.iamsurface.com&quot;&gt;Surface&lt;/a&gt; and find uses for it. I also would like to thank my loyal fans over at &lt;a href=&quot;http://livecoding.tv&quot;&gt;Livecoding&lt;/a&gt; for watching me and helping me along the way.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to follow my future projects, I stream most evenings on Livecoding, you can find my stream here.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 May 2015 19:00:00 +0100</pubDate>
+        <link>http://www.benmildren.com//coding/2015/05/06/Launching-Surface.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//coding/2015/05/06/Launching-Surface.html</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>The Making of Surface</title>
+        <description>&lt;p&gt;If I don’t have a project to work on, I get bored very quickly. So when my girlfriend went back to University for a 2 week stint, I needed something to do or I would get antsy.&lt;/p&gt;
+
+&lt;p&gt;At my day job, I have been overhauling the styles that my company uses to make it more modern and based it on &lt;a href=&quot;http://www.google.co.uk/design/spec/material-design/introduction.html&quot;&gt;Google’s Material Design&lt;/a&gt;. Sounds like good fun, right? Well, it’s not quite as fun as it seems.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong, it is still fun and I do enjoy my job. But what I’m styling is unsemantic, old markup 99% of the time. So I’m making a bunch of styles based on Material Design for tables with inline styles. It means I have to be super specific when it comes to the CSS and use the dreaded !important quite a lot (the current count is up to 618). The sysytem is massive too, I’m still working on it and it’s taken me ~6 weeks so far.&lt;/p&gt;
+
+&lt;p&gt;So I have 2 weeks of free time, and I’ve been building a vast set of styles based on Material Design.&lt;/p&gt;
+
+&lt;p&gt;Why not build a framework for Material Design?&lt;/p&gt;
+
+&lt;p&gt;That’s what I’ve been doing. For the past 10 days, I’ve been building a Material Design framework for modern markup (so it is not going to work with my day job project).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;competition&quot;&gt;Competition&lt;/h2&gt;
+
+&lt;p&gt;Obviously, the big guns are the main competition. &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt; and &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt; are the most notable.&lt;/p&gt;
+
+&lt;p&gt;The big guns do everything. They are all encompassing.&lt;/p&gt;
+
+&lt;p&gt;If you need to use a date picker, then my framework will not be for you. I didn’t want to create a heavy framework with everything crammed in.&lt;/p&gt;
+
+&lt;p&gt;Besides the big guns, the only real Material Design framework in existance right now is &lt;a href=&quot;http://materializecss.com/&quot;&gt;Materialize&lt;/a&gt;. Materialize is very good, but still what I would consider to be heavy. And in my own kind of arrogant manner I figured I could do some of the things better than they’ve done them.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;lightweight&quot;&gt;Lightweight&lt;/h2&gt;
+
+&lt;p&gt;A huge part of what I wanted from this framework was for it to be super lightweight.&lt;/p&gt;
+
+&lt;p&gt;Here’s the numbers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bootstrap - 174kb minified. No fonts. 1 dependency. 5 files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Foundation - 483kb minified. No fonts. 5 dependencies. 8 files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Materialize - 252kb minified. No fonts. 1 dependency. 3 files.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That is a lot of kb just for a framework, or at least in my opinion it is.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My Framework - 9kb minified. No fonts. 0 dependencies. 1 file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;no-javascript&quot;&gt;No Javascript&lt;/h2&gt;
+
+&lt;p&gt;This is the biggest limitation I placed on myself when building this framework. Absolutely, 100% zero Javascript.&lt;/p&gt;
+
+&lt;p&gt;Don’t worry, it still has all the features you’d expect of a framework, like modals, collapsibles and responsive navigation systems. I just used Sass to make them, not Javascript.&lt;/p&gt;
+
+&lt;p&gt;There were quite a few moments where I really wanted to use Javascript, like that pesky lightbox, but figured it’d actually be quite an acheivement to build a framework with a ton of components using only CSS. It would also mean we could serve just one file, making it even more lightweight.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;introducing-surface&quot;&gt;Introducing Surface&lt;/h2&gt;
+
+&lt;p&gt;I decided on the name Surface, as it kind of relates to material and also is a metaphor for something ot be on top of. A foundation if you will.&lt;/p&gt;
+
+&lt;p&gt;If all things go to plan, Surface will be launching over this weekend.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;codepen-demos&quot;&gt;Codepen Demos&lt;/h2&gt;
+
+&lt;p&gt;I tested a bunch of ideas on Codepen, check em out:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/pen/GJgMvQ&quot;&gt;Super Vertical Navigation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/pen/RPwQEY&quot;&gt;Dropdown Navigation Menu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/pen/gpbYPv&quot;&gt;Toggle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/pen/yNBeEd&quot;&gt;Button Animation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/pen/rVBrpK&quot;&gt;Tooltips&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/pen/azebKe&quot;&gt;Link Hover Effects&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/mildrenben/pen/azebKe&quot;&gt;Text Input Animation&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 May 2015 20:00:00 +0100</pubDate>
+        <link>http://www.benmildren.com//coding/2015/05/02/The-Making-Of-Surface.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//coding/2015/05/02/The-Making-Of-Surface.html</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>Link Hover Effects</title>
+        <description>&lt;p&gt;In my opinion, the background attribute is one of the most under utilised attributes in CSS. Sure it gets use for background images, but past that we’re not really fulfilling its potential - particularly the use of linear and radial gradients.&lt;/p&gt;
+
+&lt;p&gt;I was just riffing and came up with a few different link hover effects, mainly using the background atrribute.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;./#demo&quot;&gt;DEMO&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;sliding-in&quot;&gt;Sliding In&lt;/h2&gt;
+
+&lt;p&gt;Using the background attribute with a linear gradient a sliding in effect becomes quite easy.&lt;/p&gt;
+
+&lt;p&gt;The code below demonstrates how the linear gradient is used to acheive this effect.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;nl&quot;&gt;background-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;linear-gradient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;lighten&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$yellow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;background-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-100%&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The breakdown:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make linear gradient have hard stops so that you have 2 blocks of colour as your background—this is acheived by having to colours on the same %, ie red 50%, blue 50%&lt;/li&gt;
+  &lt;li&gt;Make one of the blocks of colour transparent (rgba(255,255,255,0))&lt;/li&gt;
+  &lt;li&gt;Set the background size to 200% wide—this will be 200% width of the element, so one of the colour blocks will be 100% element width&lt;/li&gt;
+  &lt;li&gt;Position the background so that the transparent block of colour sits behind the element&lt;/li&gt;
+  &lt;li&gt;On hover, move the background position so that the block of colour slides into view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Whilst the above summary explains how you’d get the background to slide in from the right hand side, the same principles apply to having the background slide in vertically.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;radial-bubble&quot;&gt;Radial Bubble&lt;/h2&gt;
+
+&lt;p&gt;To create a bubble/ripple out effect you would use a radial gradient rather than a linear gradient.&lt;/p&gt;
+
+&lt;p&gt;The code below demonstrates how the linear gradient is used to acheive this effect.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt; 
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;nl&quot;&gt;background-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;no-repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;radial-gradient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;circle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;lighten&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$yellow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;background-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The breakdown:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use the radial gradient and make a circle—the size percentages don’t matter so they may as well both be 50%. This is because you cannot transition a graident, so we won’t be changing the circle size using the gradient, we’ll be changing the background-size because that can be transitioned&lt;/li&gt;
+  &lt;li&gt;Set the background-size to 0%&lt;/li&gt;
+  &lt;li&gt;On hover, set the background-size to something like 200%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p data-height=&quot;866&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;azebKe&quot; data-default-tab=&quot;result&quot; data-user=&quot;mildrenben&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/mildrenben/pen/azebKe/&quot;&gt;Link hover effects&lt;/a&gt; by Ben Mildren (&lt;a href=&quot;http://codepen.io/mildrenben&quot;&gt;@mildrenben&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hopefully you find these link hover effects useful, or at least learnt some of the possibilities of background gradients.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, you can find me on &lt;a href=&quot;https://twitter.com/mildrenben&quot;&gt;Twitter @mildrenben&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Apr 2015 20:00:00 +0100</pubDate>
+        <link>http://www.benmildren.com//coding/2015/04/17/Link-Hover-Effects.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//coding/2015/04/17/Link-Hover-Effects.html</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>Starting to Use A Password Manager</title>
+        <description>&lt;p&gt;I’ll get straight to the point: My passwords sucked. Really bad.&lt;/p&gt;
+
+&lt;p&gt;They were all pretty much variations of the same password–and I used it on everything, which is awful practice.&lt;/p&gt;
+
+&lt;h1 id=&quot;lastpasshttpslastpasscom-to-the-rescue&quot;&gt;&lt;a href=&quot;https://lastpass.com/&quot;&gt;LastPass&lt;/a&gt; to the rescue!&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lastpass.com/&quot;&gt;LastPass&lt;/a&gt; isn’t the only password manager that’s held in high regard; there are a bunch of reputable managers out there, you just have to find the one that fits you the best.&lt;/p&gt;
+
+&lt;p&gt;Take a look through these discussions on Reddit (&lt;a href=&quot;http://www.reddit.com/r/techsupport/comments/22wzbi/in_wake_of_the_heartbleed_bug_whats_the_best/&quot;&gt;Thread 1&lt;/a&gt;, &lt;a href=&quot;http://www.reddit.com/r/techsupport/comments/27sff7/best_password_manager/&quot;&gt;Thread 2&lt;/a&gt;) about different password managers–they should be able to direct you to a suitable manager.&lt;/p&gt;
+
+&lt;p&gt;I ended up going with LastPass purely because it was the most recommended one, but &lt;a href=&quot;http://keepass.info/&quot;&gt;Keepass&lt;/a&gt;, &lt;a href=&quot;https://agilebits.com/onepassword&quot;&gt;1Password&lt;/a&gt; and &lt;a href=&quot;https://www.schneier.com/passsafe.html&quot;&gt;Password Safe&lt;/a&gt; all seem like decent options too.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;just-do-it&quot;&gt;Just do it&lt;/h1&gt;
+
+&lt;p&gt;I’ve been stumbling around the internet for the past 12 months knowing full well that I should be using a more secure method for my passwords, but it was just one of those things I never got around to doing. Just do it!&lt;/p&gt;
+
+&lt;p&gt;After making the plunge, you realise that it takes only 5 minutes to get setup.&lt;/p&gt;
+
+&lt;p&gt;Over 1000 login credentials were found by Lastpass on my machine, but it is a hassle to go through and change all of them–even though there is a handy 1 click password change button for each login. So I went through my top 10-20 most visited and most needing of security login credentials. Obviously, things like my server login and my bank were at the top of the list, but I also changed Facebook and Twitter too.&lt;/p&gt;
+
+&lt;p&gt;Hopefully this post will inspire you to make the change too. It takes 5 minutes and makes all your accounts more secure, just do it!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 16:00:00 +0000</pubDate>
+        <link>http://www.benmildren.com//general/2015/03/26/Starting-to-Use-A-Password-Manager.html</link>
+        <guid isPermaLink="true">http://www.benmildren.com//general/2015/03/26/Starting-to-Use-A-Password-Manager.html</guid>
+        
+        
+        <category>General</category>
+        
+      </item>
+    
+  </channel>
+</rss>

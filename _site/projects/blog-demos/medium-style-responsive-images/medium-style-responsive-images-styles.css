@@ -1,0 +1,177 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #FAFAFA;
+  padding: 0;
+  margin: 0; }
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background: #dd6735;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #dd6735 0%, #ef9856 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #dd6735), color-stop(100%, #ef9856));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #dd6735 0%, #ef9856 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #dd6735 0%, #ef9856 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #dd6735 0%, #ef9856 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #dd6735 0%, #ef9856 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd6735', endColorstr='#ef9856',GradientType=1 );
+  /* IE6-9 */ }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  float: right;
+  transition: all 0.2s ease-in-out;
+  line-height: 36px; }
+  nav a:nth-child(2) {
+    margin-right: 0; }
+  nav a.page-link {
+    text-transform: uppercase;
+    float: left;
+    font-weight: 400;
+    padding: 0 20px; }
+  nav a:hover {
+    transform: none;
+    background: #00cd9a; }
+  nav a.facebook, nav a.twitter {
+    width: 40px;
+    text-align: center;
+    padding: 0; }
+  nav a.facebook:hover {
+    background: #3b5998; }
+  nav a.twitter:hover {
+    background: #55acee; }
+
+header {
+  margin: 30px 0 26px; }
+
+article {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0 100px;
+  text-align: center; }
+  article p, article .author-box, article h1, article h2, article h3, article h4, article h5 {
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+    @media screen and (max-width: 1200px) {
+      article p, article .author-box, article h1, article h2, article h3, article h4, article h5 {
+        width: 90%; } }
+
+h1, h2, p {
+  text-rendering: optimizeLegibility; }
+
+h1, h2, a {
+  font-family: 'Lato', sans-serif; }
+
+h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #FAFAFA;
+  float: left;
+  margin: 6px 0 8px; }
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+  color: #ff6634;
+  margin: 0 0 6px; }
+
+p, h5 {
+  font-family: 'Merriweather', serif;
+  color: #121212; }
+
+h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.8em; }
+
+.head-img {
+  width: 100%;
+  height: 75%;
+  margin: -10px 0 0;
+  background: url("http://looktv.ro/wp-content/uploads/2014/12/djokovic.jpg");
+  background-size: cover; }
+
+article > p {
+  font-size: 1.2em;
+  line-height: 190%;
+  display: block;
+  margin: 0 auto 26px; }
+  article > p:last-of-type {
+    margin-bottom: 60px; }
+
+/*.article-img {
+  width: 100%;
+  height: 560px;
+  margin: 0 0 20px 0;
+  &:nth-of-type(1){
+    background: url('http://www.lta.org.uk/NewWebsite/LTA/Images/Photos/People/Players/Players-Known/Murray-Andy/2014-Murray-OzOpenQF-Getty-620x300.jpg');
+    background-size: cover;
+  }
+}*/
+.article-img {
+  min-width: 30%;
+  max-width: 100%;
+  height: auto;
+  max-height: 800px;
+  margin-bottom: 20px; }
+
+.author-box {
+  display: inline-block; }
+  .author-box img, .author-box p, .author-box a {
+    display: inline; }
+  .author-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-size: cover; }
+  .author-box p {
+    margin-left: 10px; }
+  .author-box p, .author-box a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 110px;
+    padding: 8px; }
+    .author-box p:first-of-type, .author-box a:first-of-type {
+      vertical-align: top; }
+  .author-box a {
+    color: #ff531a;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border-radius: 4px; }
+    .author-box a:hover {
+      background: #ff531a;
+      color: #FAFAFA; }
+  .author-box .share {
+    float: right; }
+    .author-box .share a {
+      display: inline-block;
+      float: right;
+      margin: 0 6px 0;
+      padding: 0 10px; }
+      .author-box .share a.facebook:hover {
+        background: #3b5998; }
+      .author-box .share a.twitter:hover {
+        background: #55acee; }
+
+html, body, main, nav, img, div, p, a, article {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+
+/*# sourceMappingURL=medium-style-responsive-images-styles.css.map */
