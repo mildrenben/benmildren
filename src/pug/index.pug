@@ -1,0 +1,39 @@
+-
+	var projects = [
+		{ name: 'webdesignrepo', date: '2016', description: 'Quality collection of web resources', link: 'http://webdesignrepo.com/'},
+		{ name: 'Surface', date: '2015', description: 'Material Design CSS only framework', link: 'http://mildrenben.github.io/surface/' },
+		{ name: 'Flat UI Colors', date: '2014', description: 'Beautiful collection of colors for modern interfaces', link: 'http://mildrenben.github.io/flat-ui-colors/' }
+	]
+
+doctype
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		title Ben Mildren
+		link(href="https://fonts.googleapis.com/css?family=Rubik:400,500", rel="stylesheet")
+		meta(name="description", content="Ben Mildren. Front End Developer and Designer")
+		link(rel="stylesheet", type="text/css" href="css/styles.css")
+		link(rel="icon", href="favicon.png")
+		meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+	body
+		header.Header
+			span.Header_HelloWorld Hello World
+		main.Main
+			p.Main_PrimaryText I'm Ben Mildren. Web developer, designer, music lover, gamer. 
+			p.Main_SecondaryText Building cool things at #[a(href="https://oddshot.tv/", target="_blank") Oddshot].
+		div.Projects
+			div.Projects_Wrapper
+				h3.Projects_Title Selected work
+				div.Projects_Projects
+					each project in projects
+						a.Project(href=project.link, target="_blank")
+							span.Project_Name #{project.name}
+							span.Project_Description #{project.description}
+							span.Project_Date #{project.date}
+		footer.Footer
+			div.Footer_Contacts
+				a.Footer_Contact.Footer_Contact--email(href="mailto:mildrenben@gmail.com", target="_blank") Email
+				a.Footer_Contact.Footer_Contact--github(href="https://github.com/mildrenben", target="_blank") Github
+				a.Footer_Contact.Footer_Contact--twitter(href="https://twitter.com/mildrenben", target="_blank") Twitter
+				a.Footer_Contact.Footer_Contact--dribbble(href="https://dribbble.com/benmil", target="_blank") Dribbble
+				a.Footer_Contact.Footer_Contact--codepen(href="http://codepen.io/mildrenben/", target="_blank") Codepen

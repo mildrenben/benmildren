@@ -1,0 +1,162 @@
+// Vars
+$black: rgba(0,0,0,0.9);
+$grey: rgba(0,0,0,0.6);
+$green: #14c1b1;
+$paper: #efefef;
+//RESET
+html,
+body {
+  padding: 0;
+  margin: 0;
+	overflow-x: hidden;
+	font-size: 16px;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+	line-height: 130%;
+	color: $black;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.Header,
+.Main,
+.Projects,
+.Footer {
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.Header,
+.Main,
+.Projects_Wrapper,
+.Footer {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Header {
+	margin: 4em auto 6em;
+	&_HelloWorld {
+		font-weight: 500;
+		color: $green;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}
+
+.Main {
+	&_PrimaryText {
+		font-size: 2.2em;
+		width: 600px;
+	}
+	&_SecondaryText {
+		font-size: 1.2em;
+		color: $grey;
+		a {
+			background: linear-gradient(to top,rgba(40,225,189, 0.85) 50%,rgba(255,255,255,0) 50%);
+			background-size: 100% 200%;
+			background-position: 0 10%;
+			background-repeat: no-repeat;
+			transition: background-position .3s cubic-bezier(.64,.09,.08,1);
+			will-change: background-position;
+			color: inherit;
+			&:hover {
+				background-position: 0 100%;
+			}
+		}
+	}
+}
+
+.Projects {
+	margin-top: 10em;
+	background: #f3f6fb;
+	&_Wrapper {
+		padding: 4em 0 2em;
+	}
+	&_Title {
+		font-weight: 400;
+		font-size: 1.2em;
+		width: 100%;
+		margin: 0;
+	}
+	&_Projects {
+		margin-top: 3em;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+}
+
+.Project {
+	width: 14em;
+	display: inline-block;
+	margin-right: 4em;
+	margin-bottom: 2em;
+	padding: 1.2em 1.8em;
+	background: white;
+	border-radius: 4px;
+	border: solid 2px #f3f6fb;
+	&:hover {
+		border-color: rgba(0,0,0,0.1);
+	}
+	&_Name {
+		font-size: 1.4em;
+		display: block;
+	}
+	&_Description {
+		margin: 1em 0;
+		color: $grey;
+		display: block;
+	}
+	&_Date {
+		color: $grey;
+		font-size: 0.9em;
+	}
+}
+
+.Footer {
+	margin-top: 8em;
+	margin-bottom: 5em;
+	&_Contact {
+		color: $grey;
+		margin-right: 2em;
+		&--github {
+			color: #6e5494;
+		}
+		&--twitter {
+			color: #1da1f2;
+		}
+		&--dribbble {
+			color: #ea4c89;
+		}
+		&--codepen {
+			color: $green;
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	html,
+	body {
+		font-size: 14px;
+	}
+	.Main_PrimaryText {
+		width: 100%;
+	}
+	.Footer {
+		&_Contacts {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		&_Contact {
+			margin-bottom: 2em;
+		}
+	}
+}
