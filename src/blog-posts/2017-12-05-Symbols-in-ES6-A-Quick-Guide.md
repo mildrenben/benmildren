@@ -2,7 +2,7 @@
 title: Symbols in ES6 - A Quick Guide
 published: true
 description: 
-tags: [es6, javascript, js, symbols, symbol, beginner, tutorial, guide]
+tags: [javascript, beginner, tutorial, guide]
 date: 2017-12-7
 ---
 
@@ -10,7 +10,7 @@ date: 2017-12-7
 
 Symbols are a new primitive type introduced in ES6.
 
-Symbols are completely unique identifiers. Just like its primitive counterparts, they can be created using the factory function `Symbol()` which returns a `Symbol`
+Symbols are completely unique identifiers. Just like its primitive counterparts, they can be created using the factory function `Symbol()` which returns a `Symbol`.
 
 ```javascript
 const foo = Symbol()
@@ -60,7 +60,7 @@ Using Symbols for object properties is handy for _hiding_ certain properties tha
 
 ---
 
-They're also very useful for defining metadata on an object, as Symbols are not enumarable and as such they are iterated over when using a `for...of` loop and other functions that return object properties.
+They're also very useful for defining metadata on an object, as Symbols are not enumarable and as such they are *not* iterated over when using a `for...of` loop and other functions that return object properties.
 
 ```javascript
 const sym = Symbol()
@@ -106,7 +106,7 @@ const bar = {
 
 ### Usage without objects
 
-Although the main application for Symbols seems to be as object property names, they could have value elsewhere, most notably as a replacement for String in constants.
+Although the main application for Symbols seems to be as object property names, they could have value elsewhere, most notably as a replacement for Strings in constants.
 
 Lots of projects have a set of constants that looks something like this:
 
@@ -163,7 +163,7 @@ Now there is no possible way these constants can conflict with another constant.
 
 ### Global Symbols
 
-Global Symbols go against a seemingly fundamental part of the whole point of Symbols: they're not unique. But they do have a purpose.
+Global Symbols seemingly go against the whole point of Symbols: they're not unique. But they do have a purpose.
 
 A Global Symbol Registry exists where you can store and access Global Symbols. You can use the `Symbol.for(key)` method to both create and access Global Symbols.
 
@@ -188,7 +188,6 @@ const bar = Symbol.keyFor(foo) // someKey
 Global Symbols exist across _realms_. A realm is a context in which code exists, almost like a scope. Modules, global variables etc. all exist _within_ realm. Each frame in a browser is in its own realm, so iFrames have a different context to your main frame. Global Symbols actually do exist across realms and can be used between them.
 
 ### "Well Known" Symbols
-They are now known as unique symbols, and their only use is to avoid name clashes between properties. For example, EcmaScript itself can now introduce extension hooks via certain methods you can put on objects (e.g. to define their iteration protocol) without running the risk of clashing with user names.
 
 There are a number of "Well Known" Symbols baked right into javascript and they all have specific functions. 
 
@@ -212,8 +211,9 @@ You can see a full list of "Well Known" Symbols [right here](https://tc39.github
 
 Unlike many other types, Symbols do not auto convert to a String. You may not have even noticed this was happening for other types, but think about when you alert() a Number, or alert() an Array. They get auto converted to a string.
 
-Symbols don't support this. You must explicitly call the `.toString()` method
-This funcionality is here to help us, as usually they should not be converted.
+Symbols don't support this. You must explicitly call the `.toString()` method.
+
+This funcionality is here to help us as usually they should not be converted.
 ```javascript
 const sym = Symbol();
 const foo = '' + sym
@@ -229,7 +229,7 @@ Due to this, you need to use square brackets within object literals, like so `co
 
 ### When are they copied?
 
-Symbols are copied in both the `Object.assign` andthe object spread operator `{ ... }`.
+Symbols are copied in both `Object.assign` and the object spread operator `{ ... }`.
 
 ```javascript
 const sym = Symbol('hey')
