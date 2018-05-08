@@ -3,7 +3,7 @@ title: Sets in ES6 - A Quick Guide
 published: true
 description: 
 tags: [javascript, beginner, tutorial, js]
-date: 2017-01-18
+date: 2018-01-18
 ---
 
 ## Overview
