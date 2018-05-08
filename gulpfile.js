@@ -16,6 +16,7 @@ gulp.task('browser-sync', ['compile-scss', 'compile-pug'], function(){
 	});
 
 	gulp.watch(src.scss, ['compile-scss']);
+	gulp.watch(src.pug, ['compile-pug']);
 });
 
 gulp.task('compile-scss', function(){
@@ -35,7 +36,10 @@ gulp.task('compile-scss', function(){
 gulp.task('compile-pug', function(){
 	gulp.src(src.pug)
 	.pipe(pug({}))
-	.pipe(gulp.dest('./docs/'));
+	.pipe(gulp.dest('./docs/'))
+	.pipe(reload({
+		stream: true
+	}));
 });
 
 gulp.task('default', ['browser-sync']);
