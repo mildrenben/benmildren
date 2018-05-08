@@ -29,21 +29,39 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
+@keyframes fadeUp {
+  from {
+    transform: translateY(5px);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }
+
 .Header {
   margin: 4em auto 6em; }
   .Header_HelloWorld {
     font-weight: 500;
     color: #14c1b1;
     text-transform: uppercase;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    transform: translateY(5px);
+    opacity: 0;
+    animation: 0.4s fadeUp 0.2s ease-out forwards;
+    display: block; }
 
 .Main_PrimaryText {
   font-size: 2.2em;
-  width: 600px; }
+  width: 630px;
+  transform: translateY(5px);
+  opacity: 0;
+  animation: 0.4s fadeUp 0.4s ease-out forwards; }
 
 .Main_SecondaryText {
   font-size: 1.2em;
-  color: rgba(0, 0, 0, 0.6); }
+  color: rgba(0, 0, 0, 0.6);
+  transform: translateY(5px);
+  opacity: 0;
+  animation: 0.4s fadeUp 0.6s ease-out forwards; }
   .Main_SecondaryText a {
     background: linear-gradient(to top, rgba(40, 225, 189, 0.85) 50%, rgba(255, 255, 255, 0) 50%);
     background-size: 100% 200%;
@@ -55,16 +73,38 @@ a {
     .Main_SecondaryText a:hover {
       background-position: 0 100%; }
 
+@keyframes fadeRight {
+  from {
+    transform: translateX(-100vw);
+    opacity: 0; }
+  to {
+    transform: translateX(0);
+    opacity: 1; } }
+
 .Projects {
   margin-top: 10em;
-  background: #f3f6fb; }
+  position: relative; }
+  .Projects:before {
+    content: '';
+    width: 100vw;
+    height: 100%;
+    transform: translateX(-100vw);
+    animation: 0.5s fadeRight 1s ease-out forwards;
+    background: #f3f6fb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; }
   .Projects_Wrapper {
     padding: 4em 0 2em; }
   .Projects_Title {
     font-weight: 400;
     font-size: 1.2em;
     width: 100%;
-    margin: 0; }
+    margin: 0;
+    transform: translateY(5px);
+    opacity: 0;
+    animation: 0.4s fadeUp 1.4s ease-out forwards; }
   .Projects_Projects {
     margin-top: 3em;
     display: -ms-flexbox;
@@ -87,6 +127,18 @@ a {
   border: solid 2px #f3f6fb; }
   .Project:hover {
     border-color: rgba(0, 0, 0, 0.1); }
+  .Project:first-of-type {
+    transform: translateY(5px);
+    opacity: 0;
+    animation: 0.25s fadeUp 1.7s ease-out forwards; }
+  .Project:nth-of-type(2), .Project:nth-of-type(4) {
+    transform: translateY(5px);
+    opacity: 0;
+    animation: 0.25s fadeUp 1.9s ease-out forwards; }
+  .Project:nth-of-type(3) {
+    transform: translateY(5px);
+    opacity: 0;
+    animation: 0.25s fadeUp 2.1s ease-out forwards; }
   .Project_Name {
     font-size: 1.4em;
     display: block; }
