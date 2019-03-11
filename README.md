@@ -1,3 +1,3 @@
 # Personal portfolio
 
-Visit the site at http://www.benmildren.com
+[mildren.dev](https://mildren.dev) or [benmildren.com](https://benmildren.com)
