@@ -9,9 +9,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
 
-      - name: Install node and node packages
-        uses: actions/setup-node@v1
+      - name: Install node packages
         run: npm i
 
       - name: Run gulp
