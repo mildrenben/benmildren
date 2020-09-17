@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "gulp",
+    "build": "gulp compile-scss compile-pug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -17,4 +17,4 @@ jobs:
         run: npm i
 
       - name: Run gulp
-        run: gulp
+        run: npm run build
