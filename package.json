@@ -23,7 +23,7 @@
   "homepage": "https://github.com/mildrenben/benmildren#readme",
   "devDependencies": {
     "browser-sync": "2.18.8",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-autoprefixer": "3.1.1",
     "gulp-cli": "2.0.1",
     "gulp-pug": "3.3.0",
